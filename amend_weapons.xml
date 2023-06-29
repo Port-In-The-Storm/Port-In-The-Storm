@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <accessories>
+    <accessory> <!-- Electronic Firing -->
+      <id>2da4f104-cf0c-4e0c-a001-4a6da4c2b46b</id>
+      <mount>Internal</mount>
+    </accessory>
+    <!-- Region Special Modifications -->
+    <accessory> <!-- Improved AP -->
+      <id>b741b729-106e-46f2-9143-0f745fd48789</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <accessory> <!-- Improved Accuracy -->
+      <id>56b17280-27c6-414a-9957-f628ae5efefa</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <accessory> <!-- Improved Ammunition Capacity -->
+      <id>9084d801-c654-4eec-960e-4186a6de81d6</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <accessory> <!-- Improved Concealment -->
+      <id>93be91c1-3f77-4e7b-9ac2-eb349b76d017</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <accessory> <!-- Damage -->
+      <id>3c82e17b-76cd-47b9-9bda-c3131a64e0ee</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <accessory> <!-- Improved Reach -->
+      <id>15d159e8-d3db-4cf3-8964-0eb2235ed6c2</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <accessory> <!-- Improved Recoil Comp -->
+      <id>09abdea8-df9a-4e74-86aa-0f79ce96f422</id>
+      <required>
+        <oneof>
+          <quality>Special Modifications</quality>
+		  <specialmodificationlimit amendoperation="remove" />
+        </oneof>
+      </required>
+    </accessory>
+    <!-- End Region -->	
+	<accessory amendoperation="replace">  <!-- Suppressors for Shotguns -->
+      <id>0da6149e-982f-4051-825b-52c1b79c7e52</id>
+      <name>Silencer/Suppressor</name>
+      <mount>Barrel</mount>
+      <avail>9F</avail>
+      <cost>500</cost>
+      <source>SR5</source>
+      <page>432</page>
+      <forbidden>
+        <weapondetails>
+          <OR>
+            <ammo operation="contains">(cy)</ammo>            
+            <name>PSK-3 Collapsible Heavy Pistol</name>
+            <spec>Revolvers</spec>
+            <spec2>Revolvers</spec2>
+          </OR>
+        </weapondetails>
+      </forbidden>
+      <rating>0</rating>
+    </accessory>
+  </accessories>
+  <weapons>
+    <weapon> <!-- Highland Forge Claymore -->
+      <id>cae4ffe9-cf22-4917-92b1-57be89741f07</id>
+      <avail>12R</avail>
+    </weapon>
+    <weapon> <!-- Ranger Sliver Pistol Crossbow -->
+      <id>28072a3f-5153-444e-83e3-46129b9ff572</id>
+      <accessorymounts>
+		<mount>Top</mount>
+		<mount>Side</mount>
+      </accessorymounts>
+      <ammo>4(m)</ammo>
+      <conceal>0</conceal>
+    </weapon>
+    <weapon>
+      <id>fe835c72-a973-4976-bf5f-751aff1371d4</id> <!-- spurs -->
+      <category>Cyberweapon</category>
+    </weapon>
+    <weapon>
+      <id>16fe95d3-9c66-4ac6-b4e3-562de5e5619e</id> <!-- hand razors -->
+      <category>Cyberweapon</category>
+    </weapon>
+    <weapon>
+      <id>5ec246dc-c129-4e61-a27a-c4d82b223bea</id> <!-- hand blades -->
+      <category>Cyberweapon</category>
+    </weapon>
+    <weapon>
+      <id>fec4a4f8-4432-4bdc-b3b9-83c032d71d63</id> <!-- shock hand -->
+      <category>Cyberweapon</category>
+    </weapon>
+    <weapon>
+      <id>c73077d0-fc16-474c-a8e6-ce9635a36224</id> <!-- foot anchor -->
+      <category>Cyberweapon</category>
+    </weapon>
+    <weapon>
+      <id>ad2ea9ea-74d0-411d-89b7-20702ee4105d</id> <!-- climbing claws -->
+      <category>Cyberweapon</category>
+    </weapon>
+    <!--  BEGIN EXOTIC WEAPON SKILLS -->
+    <!--  Chainsaws -->
+    <weapon>
+      <name>Ash Arms Combat Chainsaw</name>
+      <useskill>Chainsaws</useskill>
+    </weapon>
+    <weapon>
+      <name>Ash Arms Monofilament Chainsaw</name>
+      <useskill>Chainsaws</useskill>
+    </weapon>
+    <weapon>
+      <name>Monofilament Chainsaw</name>
+      <useskill>Chainsaws</useskill>
+    </weapon>
+    <weapon>
+      <name>Underbarrel Chainsaw</name>
+      <useskill>Chainsaws</useskill>
+    </weapon>
+    <!--  Directed Energy Weapons -->
+    <weapon>
+      <name>Ares Screech Sonic Rifle</name>
+      <useskill>Directed Energy Weapons</useskill>
+    </weapon>		
+    <weapon>
+      <name>Fichetti Pain Inducer</name>
+      <useskill>Directed Energy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Narcoject PEP</name>
+      <useskill>Directed Energy Weapons</useskill>
+    </weapon>
+    <!--  Flame Weapons -->
+    <weapon>
+      <name>Flame Bracer</name>
+      <useskill>Flame Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Halloweener Barbecue Lighter</name>
+      <useskill>Flame Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Shiawase Arms Incinerator</name>
+      <useskill>Flame Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Shiawase Blazer</name>
+      <useskill>Flame Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Underbarrel Flamethrower</name>
+      <useskill>Flame Weapons</useskill>
+    </weapon>
+    <!--  Lasers -->
+    <weapon>
+      <name>Ares Archon Heavy MP Laser</name>
+      <useskill>Lasers</useskill>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Ares Armatus</name>
+      <useskill>Lasers</useskill>
+      <damage>8P</damage>
+    </weapon>
+    <weapon>
+      <name>Ares Lancer MP Laser</name>
+      <useskill>Lasers</useskill>
+      <damage>9P</damage>
+    </weapon>
+    <weapon>
+      <name>Ares Redline</name>
+      <useskill>Lasers</useskill>
+      <damage>7P</damage>
+    </weapon>
+    <weapon>
+      <name>Underbarrel Laser</name>
+      <useskill>Lasers</useskill>
+      <damage>7P</damage>
+    </weapon>
+    <!--  Monofilament Weapons -->
+    <weapon>
+      <name>Monofilament Bola</name>
+      <useskill>Monofilament Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Monofilament Garrote</name>
+      <useskill>Monofilament Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Monofilament Whip</name>
+      <useskill>Monofilament Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Monofilament Yo-Yo</name>
+      <useskill>Monofilament Weapons</useskill>
+    </weapon>
+    <!--  Spray Guns -->
+    <weapon>
+      <name>Ares S-III Super Squirt</name>
+      <useskill>Spray Guns</useskill>
+    </weapon>
+    <weapon>
+      <name>Modified Spray Pen</name>
+      <useskill>Spray Guns</useskill>
+    </weapon>
+    <weapon>
+      <name>Narcoject Gas Gun</name>
+      <useskill>Spray Guns</useskill>
+    </weapon>
+    <weapon>
+      <name>Narcoject Trackstopper</name>
+      <useskill>Spray Guns</useskill>
+    </weapon>
+    <weapon>
+      <name>Pepper Punch Pen</name>
+      <useskill>Spray Guns</useskill>
+    </weapon>
+    <weapon>
+      <name>Hold-Fast Sprayer</name>
+      <useskill>Spray Guns</useskill>
+    </weapon>
+    <!--  Archery -->
+    <weapon>
+      <name>Grapple Gun</name>
+      <useskill>Archery</useskill>
+    </weapon>		
+    <weapon>
+      <name>Grapple Hand</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>Underbarrel Grapple Gun</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>Tactical Grapple Gun</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>SA Retarius Net Gun</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>SA Retarius Net Gun XL</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>Blowgun</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>Underbarrel Bola Launcher</name>
+      <useskill>Archery</useskill>
+    </weapon>
+    <!--  Blades -->
+    <weapon>
+      <name>Bladed Skateboard</name>
+      <useskill>Blades</useskill>
+    </weapon>
+    <weapon>  <!-- melee chakram -->
+      <id>dc18811b-eb07-43d8-8d95-d5c468f048f4</id>
+      <useskill>Blades</useskill>
+    </weapon>
+    <weapon>
+      <name>Injector Pen</name>
+      <useskill>Blades</useskill>
+    </weapon>
+    <weapon>
+      <name>Rolling Blades</name>
+      <useskill>Blades</useskill>
+    </weapon>
+    <!--  Clubs -->
+    <weapon>
+      <name>Ballistic Shield</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Riot Shield</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Blast Shield</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Briefcase Shield</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Ares FlaShield</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Battering Ram, Standard</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Battering Ram, Fluid-Motion</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Battering Ram, Pneumatic</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Battering Ram, Shock</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Hardened Skateboard</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <weapon>
+      <name>Krime Stun Lance</name>
+      <useskill>Clubs</useskill>
+    </weapon>
+    <!--  Longarms -->
+    <weapon>
+      <name>Knockoff Gun Cane</name>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <name>Mortimer of London 'Trafalger' Gun Cane</name>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <weapon>
+      <name>Parashield Dart Rifle</name>
+      <useskill>Longarms</useskill>
+    </weapon>
+    <!--  Pistols -->
+    <weapon>
+      <name>Shiawase Arms Simoom</name>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <name>Tiffani Elegance Shooting Bracers</name>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <name>FN-AAL Gyrojet Pistol</name>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <name>Micro Flare Launcher</name>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <weapon>
+      <name>Parashield Dart Pistol</name>
+      <useskill>Pistols</useskill>
+    </weapon>
+    <!--  Throwing Weapons -->
+    <weapon>
+      <name>Bladed Yo-Yo</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Hardened Yo-Yo</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Bola</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Bullwhip</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon> <!-- ranged chakram -->
+      <id>AB91307F-B8D1-46E5-A3C1-9A0047F5B1EF</id> 
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Net</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Throwing Syringe</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Gunstock War Club (Thrown)</name>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <name>Garrote</name>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <weapon>
+      <name>Goring Horns</name>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <weapon>
+      <name>Oral Slasher</name>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <weapon>
+      <name>Proboscis</name>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <weapon>
+      <name>Functional Tail (Thagomizer)</name>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <!--  END EXOTIC WEAPON SKILLS -->
+    <!-- Region Tasers-->
+    <weapon>
+	  <name>Cavalier Safeguard</name>
+      <damage>8S(e)</damage>
+    </weapon>
+    <weapon>
+      <name>Defiance EX Shocker</name>
+      <damage>11S(e)</damage>
+    </weapon>
+	<weapon>
+      <name>Horizon-Flynn Defense-Com Commlink Taser</name>
+      <damage>9S(e)</damage>
+    </weapon>
+	<weapon>
+      <name>Krime Tingler</name>
+      <damage>12S(e)</damage>
+    </weapon>
+	<weapon>
+      <name>Tiffani-Defiance Protector</name>
+      <damage>9S(e)</damage>
+    </weapon>
+	<weapon>
+      <name>Yamaha Pulsar</name>
+      <damage>9S(e)</damage>
+    </weapon>
+    <!--End Region Tasers-->
+    <!-- Region Holdouts-->
+    <weapon>
+      <name>Colt New Model Revolver</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Fichetti Tiffani Needler</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Fichetti Tiffani Self-Defender</name>
+      <damage>9P</damage>
+    </weapon>
+    <weapon>
+      <name>Horizon-Flynn Defense-Com Commlink Holdout</name>
+      <damage>9P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Vester</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Raecor Sting</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Stinger Pen Gun</name>
+      <damage>9P</damage>
+    </weapon>
+    <weapon>
+      <name>Streetline Special</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Terracotta Arms Pup</name>
+      <damage>9P</damage>
+    </weapon>
+    <weapon>
+      <name>Walther Palm Pistol</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <!-- End Region Holdouts-->
+    <!-- Region Light Pistols-->
+    <weapon>
+      <name>Ares Light Fire 70</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Ares Light Fire 75</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Beretta 201T</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Browning Ghost</name>
+      <damage>9P</damage>
+    </weapon>
+    <weapon>
+      <name>Cavalier Arms Adder Slivergun</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Colt Agent Special</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Colt America L36</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Colt Coral Snake</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Fichetti Executive Action</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Fichetti Security 600</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Hammerli 620S</name>
+      <damage>9P</damage>
+    </weapon>
+    <weapon>
+      <name>Nitama Sporter</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Shiawase Armaments Puzzler</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Taurus Omni-6</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Yamaha Sakura Fubuki SX</name>
+      <damage>9P</damage>
+    </weapon>
+    <!-- End Region-->
+    <!-- Region Heavy Pistols-->
+    <weapon>
+      <name>Cavalier Champion</name>
+      <damage>12P</damage>
+      <ap>-3</ap>
+    </weapon>
+    <weapon>
+      <name>Hammerli Gemini</name>
+      <damage>10P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Ruger Super Warhawk</name>
+      <damage>11P</damage>
+      <ap>-3</ap>
+    </weapon>
+    <weapon>
+      <name>Ares Predator III</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Ares Predator V</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Ares Striker</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Barrens Special</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Ares Viper Slivergun</name>
+      <damage>9P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Browning Phantom</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Browning Ultra-Power</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Cavalier Deputy</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Cavalier Thunderstruck</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Colt Future Frontier</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Colt Government 2066</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Colt Manhunter</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Colt Manhunter A1</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>HK Urban Fighter</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Heater</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Varmint</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Lemat 2072</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Morrissey Alta</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Morrissey Elite</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <id>daa06575-86d4-449a-ba6f-85ad736c622e</id>
+      <name>Nemesis Arms Praetorian</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <id>a6402dd0-fa9d-4c3f-83e5-695510058420</id>
+      <name>Nemesis Arms Praetorian</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Onotari Arms Troublemaker</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Onotari Arms Vagabond</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Onotari Arms Violator</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>PSK-3 Collapsible Heavy Pistol</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Remington Roomsweeper</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Savalette Guardian</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>WW Infiltrator</name>
+      <damage>10P</damage>
+    </weapon>
+    <!-- End Region Heavy Pistols-->
+    <!-- Region Machine Pistols-->
+    <weapon>
+      <name>Ares Crusader II</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Cavalier Evanator</name>
+      <damage>9P</damage>
+    </weapon>
+    <weapon>
+      <name>Cavalier Flash</name>
+      <damage>9P</damage>
+    </weapon>
+    <weapon>
+      <name>Ceska Black Scorpion</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Fianchetti Military 100</name>
+      <damage>9P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Chatter</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Onotari Arms Equalizer</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>PPSK-4 Collapsible Machine Pistol</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Remington Suppressor</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Steyr TMP</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Ultimax 70</name>
+      <damage>9P</damage>
+      <ap>0</ap>
+    </weapon>
+   <!-- End Region Machine Pistols-->
+   <!-- Region SMGs-->
+    <weapon>
+      <name>Ares Executioner</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Ares SIGMA 3</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Cavalier Arms Gladius</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Colt Cobra TZ-120</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Esprit Tsunami</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>FN P93 Praetor</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>HK 227</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>HK Urban Combat</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Ingram Smartgun X</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Ingram Supermach 200</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Krime Spree</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Krime Tradition</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Onotari Arms S-3K</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+    <weapon>
+      <name>Onotari Arms SIG-6</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+      <name>SCK Model 100</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Uzi IV</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Onotari HL-13 Personal Defense Weapon</name>
+      <damage>10P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <!-- End Region SMGs-->
+    <!-- Region Carbines-->
+    <weapon>
+      <name>Krime Junior</name>
+      <damage>9P</damage>
+      <ap>-1</ap>
+    </weapon>
+    <weapon>
+      <name>Onotari HL-13 Urban Assault</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Ares Stalwart</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Colt M23A2</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Izom Artemis</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime AKM-SU97</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Saint Nicholas</name>
+      <damage>10P</damage>
+      <ap>-2</ap>
+    </weapon>
+    <!-- End Region Carbines-->
+    <!--  Region Assault Rifles-->
+    <weapon>
+      <name>Ares HVAR</name>
+      <damage>10P</damage>
+      <ap>0</ap>
+    </weapon>
+    <weapon>
+      <name>Krupp Arms Kriegfaust</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Ultimax Rain Forest Carbine</name>
+      <accuracy>5</accuracy>
+      <damage>12P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF</mode>
+      <avail>8R</avail>
+    </weapon>
+    <weapon>
+      <name>AK-97</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>AK-98</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>Cavalier Frontier</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>Colt Inception</name>
+      <damage>11P</damage>
+      <ap>-2</ap>
+    </weapon>
+    <weapon>
+      <name>Colt M23</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>FN HAR</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>HK XM30</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime AKM-97</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Happiness</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>Nissan Optimum II</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>Onotari HL-13</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>SBd-44</name>
+      <damage>11P</damage>
+      <ap>-2</ap>
+    </weapon>
+    <weapon>
+      <name>Shiawase Arms Monsoon</name>
+      <damage>11P</damage>
+      <ap>-2</ap>
+    </weapon>
+    <!-- End Region Assault Rifles-->
+    <!-- Region Sniper Rifles-->
+    <weapon>
+      <name>Barret Model 122</name>
+      <ap>-5</ap>
+    </weapon>
+    <weapon>
+      <name>Terracotta Arms AM-47</name>
+      <damage>14P</damage>
+      <ap>-5</ap>
+    </weapon>
+    <weapon>
+      <name>Cavalier Arms Crockett EBR</name>
+      <ap>-4</ap>
+    </weapon>
+    <weapon>
+      <name>Onotari Arms JP-K50</name>
+      <ap>-4</ap>
+    </weapon>
+    <weapon>
+      <name>Pioneer 60</name>
+      <damage>11P</damage>
+      <ap>-2</ap>
+    </weapon>
+    <weapon>
+      <name>SVD</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>Ruger 101</name>
+      <damage>11P</damage>
+      <ap>-4</ap>
+    </weapon>
+    <weapon>
+      <name>Krime Soldier</name>
+      <category>Sniper Rifle</category>
+      <damage>13P</damage>
+    </weapon>
+    <weapon>
+      <name>Onotari HL-13 (Sniper Rifle)</name>
+      <damage>13P</damage>
+      <ap>-4</ap>
+    </weapon>
+    <weapon>
+      <name>PSG Enforcer</name>
+      <damage>13P</damage>
+    </weapon>
+    <!-- End Region Sniper Rifles-->
+    <!-- End Region Shotguns-->
+    <weapon>
+      <name>Defiance T-250, Short-Barrel</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Stopper-II (Homeguard)</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Stopper-II</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Stopper-II (Shopkeeper)</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Auto-Assault 16</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Beretta Northstar</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Cavalier Falchion</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Defiance T-250</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Enfield AS-7</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Boom</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Boss</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Lone Star Remington 995 "Buzzsaw"</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>PJSS Model 55</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Remington 990</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Shiawase Arms Rain</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Winchester Model 201</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Winchester Model 2054</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Winchester Model 2066</name>
+      <damage>12P</damage>
+    </weapon>
+    <!-- End Region Shotguns-->
+    <!-- Region Light Machineguns-->
+    <weapon>
+      <name>GE Vindicator Mini-Gun</name>
+      <damage>11P</damage>
+      <ap>-2</ap>
+    </weapon>
+    <weapon>
+      <name>Ingram Valiant</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime KAR-97-H</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Triple-Troll Minigun</name>
+      <damage>11P</damage>
+      <ap>-2</ap>
+    </weapon>
+    <weapon>
+      <name>Krime Triple-Ork Minigun</name>
+      <damage>11P</damage>
+      <ap>-2</ap>
+    </weapon>
+    <weapon>
+      <name>Krime Triple-Dwarf Minigun</name>
+      <damage>11P</damage>
+      <ap>-2</ap>
+    </weapon>
+    <weapon>
+      <name>Krime Wave</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>Shiawase Armaments Nemesis</name>
+      <damage>11P</damage>
+    </weapon>
+    <!--End Region Light Machineguns-->
+    <!--Region Medium Machineguns-->
+    <weapon>
+      <name>Stoner-Ares M202</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>Ultamax MMG</name>
+      <damage>11P</damage>
+      <ap>-3</ap>
+    </weapon>
+    <!--End Region Medium Machineguns-->
+    <!--Region Heavy Machineguns-->
+    <weapon>
+      <name>Krime Monster</name>
+      <damage>13P</damage>
+    </weapon>
+    <weapon>
+      <name>Ultamax HMG-2</name>
+      <damage>12P</damage>
+    </weapon>
+    <!--End Region Heavy Machineguns-->
+    <!--Region Assault Cannons-->
+    <weapon>
+      <name>Ares Vigorous Assault Cannon</name>
+      <damage>17P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Bomb</name>
+      <damage>17P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Cannon</name>
+      <ap>-5</ap>
+    </weapon>
+    <weapon>
+      <name>Ogre Hammer SWS Assault Cannon</name>
+      <ap>-5</ap>
+    </weapon>
+    <!--End Region Assault Cannons-->
+	<!--Banned Items-->
+	<weapon>
+      <name>Stoner-Ares M-22A1</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Grenade: Krime Party</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Grenade: Krime Party (Flash-Bang)</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Krime Carpet</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Krime Calliope</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Krime Ripper</name>
+      <hide />
+    </weapon>
+	<!--End Region Banned Items-->
+    <weapon>
+      <name>Narcoject PEP</name>
+      <ammo>2x10(c) + energy</ammo>
+    </weapon>
+  </weapons>
+</chummer>

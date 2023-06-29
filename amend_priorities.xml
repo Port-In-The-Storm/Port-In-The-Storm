@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <priorities>
+    <!-- Region Metatypes-->
+    <priority xpathfilter="id='55bc32fb-e097-4234-bdd5-a70e4f043b3d'">
+      <metatypes>
+        <metatype>
+          <name>Human</name>
+          <metavariants>
+            <metavariant>
+              <name>Nartaki</name>
+              <karma amendoperation="replace">8</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority xpathfilter="id='f9aa712d-7140-4ddd-9e88-4a06e8bae222'">
+      <metatypes>
+        <metatype>
+          <name>Human</name>
+          <metavariants>
+            <metavariant>
+              <name>Nartaki</name>
+              <karma amendoperation="replace">8</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority xpathfilter="id='988b7ce3-5739-4300-bc21-a6c92b869262'">
+      <metatypes>
+        <metatype>
+          <name>Human</name>
+          <metavariants>
+            <metavariant>
+              <name>Nartaki</name>
+              <karma amendoperation="replace">8</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority xpathfilter="id='255da2ba-8d21-4a73-9f81-37156901db72'">
+      <metatypes>
+        <metatype>
+          <name>Human</name>
+          <metavariants>
+            <metavariant>
+              <name>Nartaki</name>
+              <karma amendoperation="replace">8</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority xpathfilter="id='91dccab9-c3fc-4868-abf8-1825b70e8a6c'">
+      <metatypes>
+        <metatype>
+          <name>Human</name>
+          <metavariants>
+            <metavariant>
+              <name>Nartaki</name>
+              <karma amendoperation="replace">8</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <!-- End Region -->
+  </priorities>
+</chummer>
