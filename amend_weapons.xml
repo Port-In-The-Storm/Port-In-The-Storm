@@ -214,6 +214,12 @@
       <name>Ares Lancer MP Laser</name>
       <useskill>Lasers</useskill>
       <damage>9P</damage>
+      <accessorymounts>
+        <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Stock</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
     </weapon>
     <weapon>
       <name>Ares Redline</name>
@@ -271,6 +277,12 @@
     <weapon>
       <name>Grapple Gun</name>
       <useskill>Archery</useskill>
+      <accessorymounts>
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Stock</mount>
+           <mount>Internal</mount>
+      </accessorymounts>
     </weapon>		
     <weapon>
       <name>Grapple Hand</name>
@@ -283,6 +295,12 @@
     <weapon>
       <name>Tactical Grapple Gun</name>
       <useskill>Archery</useskill>
+      <accessorymounts>
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Stock</mount>
+           <mount>Internal</mount>
+      </accessorymounts>
     </weapon>
     <weapon>
       <name>SA Retarius Net Gun</name>
