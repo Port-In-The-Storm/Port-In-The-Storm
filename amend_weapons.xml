@@ -214,7 +214,7 @@
       <name>Ares Lancer MP Laser</name>
       <useskill>Lasers</useskill>
       <damage>9P</damage>
-      <accessorymounts>
+      <accessorymounts amendoperation="Append">
         <mount>Top</mount>
         <mount>Side</mount>
         <mount>Stock</mount>
@@ -277,7 +277,7 @@
     <weapon>
       <name>Grapple Gun</name>
       <useskill>Archery</useskill>
-      <accessorymounts>
+      <accessorymounts amendoperation="Append">
            <mount>Top</mount>
            <mount>Side</mount>
            <mount>Stock</mount>
@@ -295,7 +295,7 @@
     <weapon>
       <name>Tactical Grapple Gun</name>
       <useskill>Archery</useskill>
-      <accessorymounts>
+      <accessorymounts amendoperation="Append">
            <mount>Top</mount>
            <mount>Side</mount>
            <mount>Stock</mount>
