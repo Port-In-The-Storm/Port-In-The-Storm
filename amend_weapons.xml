@@ -117,9 +117,9 @@
     <weapon> <!-- Ranger Sliver Pistol Crossbow -->
       <id>28072a3f-5153-444e-83e3-46129b9ff572</id>
       <accessorymounts amendoperation="Append">
-		   <mount>Top</mount>
-	     <mount>Side</mount>
-       <mount>Internal</mount>
+	<mount>Top</mount>
+	<mount>Side</mount>
+        <mount>Internal</mount>
       </accessorymounts>
       <ammo>4(m)</ammo>
       <conceal>0</conceal>
