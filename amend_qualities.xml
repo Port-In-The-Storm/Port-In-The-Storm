@@ -459,7 +459,7 @@
 		<id>6556d48f-2cbd-4bc6-a2c8-e9fe3f99ac7e</id>
 		<hide />
     </quality>
-    <quality>
+    <quality> <!-- Infected: Fomoraig -->
       <name>Infected: Fomoraig</name>
       <hide />
     </quality>
@@ -487,47 +487,47 @@
       <id>92123580-1f4f-4c6a-b2f5-3b9c9031d705</id>
 	  <hide />
     </quality>
-    <quality>  <!-- Infected: Ghoul (Gnawer) -->
+    <quality> <!-- Infected: Ghoul (Gnawer) -->
       <id>5f31925d-cc76-49da-acab-644b66d5e93d</id>
       <hide />	  
     </quality>
-    <quality>
+    <quality> <!-- Infected: Goblin -->
       <name>Infected: Goblin</name>
       <hide />
     </quality>
-    <quality>
+    <quality> <!-- Infected: Grendel -->
       <name>Infected: Grendel</name>
       <hide />
     </quality>
-	<quality>
+	<quality> <!-- Infected: Harvester -->
 		<name>Infected: Harvester</name>
 		<hide />
 	</quality>
-    <quality>
+    <quality> <!-- Infected: Loup-Garou -->
       <name>Infected: Loup-Garou</name>
       <hide />
     </quality>
-    <quality>
+    <quality> <!-- Infected: Mutaqua -->
       <name>Infected: Mutaqua</name>
       <hide />
     </quality>
-    <quality>
+    <quality> <!-- Infected: Nosferatu -->
       <name>Infected: Nosferatu</name>
       <hide />
     </quality>
-    <quality>
+    <quality> <!-- Infected: Vampire (Non-Human) -->
       <name>Infected: Vampire (Human)</name>
       <hide />
     </quality>
-    <quality>
+    <quality> <!-- Infected: Vampire (Human) -->
       <name>Infected: Vampire (Non-Human)</name>
       <hide />
     </quality>
-    <quality>
+    <quality> <!-- Infected: Sukuyan (Human) -->
       <name>Infected: Sukuyan (Human)</name>
       <hide />
     </quality>
-    <quality>
+    <quality> <!-- Infected: Sukuyan (Non-Human) -->
       <name>Infected: Sukuyan (Non-Human)</name>
       <hide />
     </quality>
