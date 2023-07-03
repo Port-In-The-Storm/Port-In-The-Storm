@@ -116,9 +116,10 @@
     </weapon>
     <weapon> <!-- Ranger Sliver Pistol Crossbow -->
       <id>28072a3f-5153-444e-83e3-46129b9ff572</id>
-      <accessorymounts>
-		<mount>Top</mount>
-		<mount>Side</mount>
+      <accessorymounts amendoperation="Append">
+		   <mount>Top</mount>
+	     <mount>Side</mount>
+       <mount>Internal</mount>
       </accessorymounts>
       <ammo>4(m)</ammo>
       <conceal>0</conceal>
@@ -169,10 +170,22 @@
     <weapon>
       <name>Ares Screech Sonic Rifle</name>
       <useskill>Directed Energy Weapons</useskill>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Internal</mount>
+      </accessorymounts>
     </weapon>		
     <weapon>
       <name>Fichetti Pain Inducer</name>
       <useskill>Directed Energy Weapons</useskill>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Underbarrel</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
     </weapon>
     <weapon>
       <name>Narcoject PEP</name>
@@ -186,14 +199,29 @@
     <weapon>
       <name>Halloweener Barbecue Lighter</name>
       <useskill>Flame Weapons</useskill>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+      </accessorymounts>
     </weapon>
     <weapon>
       <name>Shiawase Arms Incinerator</name>
       <useskill>Flame Weapons</useskill>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+      </accessorymounts>
     </weapon>
     <weapon>
       <name>Shiawase Blazer</name>
       <useskill>Flame Weapons</useskill>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+      </accessorymounts>
     </weapon>
     <weapon>
       <name>Underbarrel Flamethrower</name>
@@ -204,11 +232,23 @@
       <name>Ares Archon Heavy MP Laser</name>
       <useskill>Lasers</useskill>
       <damage>12P</damage>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Stock</mount>
+      </accessorymounts>
     </weapon>
     <weapon>
       <name>Ares Armatus</name>
       <useskill>Lasers</useskill>
       <damage>8P</damage>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Internal</mount>
+      </accessorymounts>
     </weapon>
     <weapon>
       <name>Ares Lancer MP Laser</name>
@@ -225,6 +265,11 @@
       <name>Ares Redline</name>
       <useskill>Lasers</useskill>
       <damage>7P</damage>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
     </weapon>
     <weapon>
       <name>Underbarrel Laser</name>
@@ -252,6 +297,12 @@
     <weapon>
       <name>Ares S-III Super Squirt</name>
       <useskill>Spray Guns</useskill>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Underbarrel</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
     </weapon>
     <weapon>
       <name>Modified Spray Pen</name>
@@ -260,10 +311,20 @@
     <weapon>
       <name>Narcoject Gas Gun</name>
       <useskill>Spray Guns</useskill>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
     </weapon>
     <weapon>
       <name>Narcoject Trackstopper</name>
       <useskill>Spray Guns</useskill>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
     </weapon>
     <weapon>
       <name>Pepper Punch Pen</name>
@@ -317,6 +378,24 @@
     <weapon>
       <name>Underbarrel Bola Launcher</name>
       <useskill>Archery</useskill>
+    </weapon>
+    <weapon>
+      <name>Standard Harpoon Gun</name>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <name>Aquadyne Shark-XS Harpoon Gun</name>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Internal</mount>
+      </accessorymounts>
     </weapon>
     <!--  Blades -->
     <weapon>
@@ -392,6 +471,12 @@
     <weapon>
       <name>Parashield Dart Rifle</name>
       <useskill>Longarms</useskill>
+      <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Stock</mount>
+      </accessorymounts>
     </weapon>
     <!--  Pistols -->
     <weapon>
@@ -413,6 +498,19 @@
     <weapon>
       <name>Parashield Dart Pistol</name>
       <useskill>Pistols</useskill>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
+    </weapon>
+        <weapon>
+      <name>Narcoject Dazzler</name>
+      <accessorymounts amendoperation="Append">
+        <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Internal</mount>
+      </accessorymounts>
     </weapon>
     <!--  Throwing Weapons -->
     <weapon>
@@ -1191,6 +1289,15 @@
     <weapon>
       <name>Ogre Hammer SWS Assault Cannon</name>
       <ap>-5</ap>
+    </weapon>
+    <weapon>
+      <name>Ares Thunderstruck Gauss Rifle</name>
+       <accessorymounts amendoperation="Append">
+           <mount>Top</mount>
+           <mount>Side</mount>
+           <mount>Underbarrel</mount>
+           <mount>Stock</mount>
+      </accessorymounts>
     </weapon>
     <!--End Region Assault Cannons-->
 	<!--Banned Items-->
