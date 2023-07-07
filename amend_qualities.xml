@@ -164,6 +164,10 @@
       <name>Ex-Con</name>
       <karma>-20</karma>
     </quality>
+    <quality> <!-- Bad Rep -->
+      <name>Bad Rep</name>
+      <careeronly />
+    </quality>
     <!-- Region Banned Positive Qualities -->
     <quality> <!-- Barehanded Adept -->
       <name>Barehanded Adept</name>
