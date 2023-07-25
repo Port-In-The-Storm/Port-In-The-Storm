@@ -67,8 +67,8 @@
           <quality>Blighted (12 Months)</quality>
           <quality>Blind</quality>
           <quality>Deaf</quality>
-          <quality>Dimmer Bulb</quality>
-          <quality>Illness</quality>
+          <quality rating="2">Dimmer Bulb</quality>
+          <quality rating="2">Illness</quality>
           <quality>Incomplete Deprogramming</quality>
           <quality>Insomnia (Basic)</quality>
           <quality>Low Pain Tolerance</quality>
@@ -79,7 +79,7 @@
           <quality>Poor Self Control (Compulsive IV, Personal)</quality>
           <quality>Reduce Sense (Touch)</quality>
           <quality>Wanted</quality>
-          <quality>Weak Immune System </quality>
+          <quality>Weak Immune System</quality>
         </selectquality>
       </bonus>
     </quality>
