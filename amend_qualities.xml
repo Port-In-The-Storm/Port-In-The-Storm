@@ -169,20 +169,12 @@
       <careeronly />
     </quality>
     <!-- Region Banned Positive Qualities -->
-    <quality> <!-- Barehanded Adept -->
-      <name>Barehanded Adept</name>
-      <hide />
-    </quality>
     <quality> <!-- Better to be Feared Than Loved -->
       <name>Better to be Feared Than Loved</name>
       <hide />
     </quality>	
     <quality> <!-- Community Connection -->
       <name>Community Connection</name>
-      <hide />
-    </quality>
-    <quality> <!-- Dark Ally -->
-      <name>Dark Ally</name>
       <hide />
     </quality>
     <quality> <!-- Erased -->
@@ -383,10 +375,6 @@
     </quality>
     <quality> <!-- Every Man For Himself -->
       <name>Every Man For Himself</name>
-      <hide />
-    </quality>
-    <quality> <!-- Faceless -->
-      <name>Faceless</name>
       <hide />
     </quality>
     <quality> <!-- Force of Chaos -->
