@@ -168,6 +168,10 @@
       <name>Bad Rep</name>
       <careeronly />
     </quality>
+    <quality> <!-- Wanted -->
+      <name>Wanted</name>
+      <careeronly />
+    </quality>
     <!-- Region Banned Positive Qualities -->
     <quality> <!-- Better to be Feared Than Loved -->
       <name>Better to be Feared Than Loved</name>
