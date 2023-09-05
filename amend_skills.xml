@@ -153,6 +153,5 @@
     </skill>
     <skill xpathfilter="name = 'Free-Fall'" amendoperation="remove" />
     <skill xpathfilter="name = 'Diving'" amendoperation="remove" />
-    <skill xpathfilter="name = 'Pilot Aerospace'" amendoperation="remove" />
   </skills>
 </chummer>

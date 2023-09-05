@@ -171,6 +171,10 @@
     <quality> <!-- Wanted -->
       <name>Wanted</name>
       <careeronly />
+    <!-- Region Banned Positive Qualities -->
+    <quality> <!-- Barehanded Adept -->
+      <name>Barehanded Adept</name>
+      <hide />
     </quality>
     <!-- Region Banned Positive Qualities -->
     <quality> <!-- Better to be Feared Than Loved -->
@@ -455,7 +459,7 @@
 		<id>6556d48f-2cbd-4bc6-a2c8-e9fe3f99ac7e</id>
 		<hide />
     </quality>
-    <quality> <!-- Infected: Fomoraig -->
+    <quality>
       <name>Infected: Fomoraig</name>
       <hide />
     </quality>
@@ -483,47 +487,47 @@
       <id>92123580-1f4f-4c6a-b2f5-3b9c9031d705</id>
 	  <hide />
     </quality>
-    <quality> <!-- Infected: Ghoul (Gnawer) -->
+    <quality>  <!-- Infected: Ghoul (Gnawer) -->
       <id>5f31925d-cc76-49da-acab-644b66d5e93d</id>
       <hide />	  
     </quality>
-    <quality> <!-- Infected: Goblin -->
+    <quality>
       <name>Infected: Goblin</name>
       <hide />
     </quality>
-    <quality> <!-- Infected: Grendel -->
+    <quality>
       <name>Infected: Grendel</name>
       <hide />
     </quality>
-	<quality> <!-- Infected: Harvester -->
+	<quality>
 		<name>Infected: Harvester</name>
 		<hide />
 	</quality>
-    <quality> <!-- Infected: Loup-Garou -->
+    <quality>
       <name>Infected: Loup-Garou</name>
       <hide />
     </quality>
-    <quality> <!-- Infected: Mutaqua -->
+    <quality>
       <name>Infected: Mutaqua</name>
       <hide />
     </quality>
-    <quality> <!-- Infected: Nosferatu -->
+    <quality>
       <name>Infected: Nosferatu</name>
       <hide />
     </quality>
-    <quality> <!-- Infected: Vampire (Non-Human) -->
+    <quality>
       <name>Infected: Vampire (Human)</name>
       <hide />
     </quality>
-    <quality> <!-- Infected: Vampire (Human) -->
+    <quality>
       <name>Infected: Vampire (Non-Human)</name>
       <hide />
     </quality>
-    <quality> <!-- Infected: Sukuyan (Human) -->
+    <quality>
       <name>Infected: Sukuyan (Human)</name>
       <hide />
     </quality>
-    <quality> <!-- Infected: Sukuyan (Non-Human) -->
+    <quality>
       <name>Infected: Sukuyan (Non-Human)</name>
       <hide />
     </quality>
@@ -583,6 +587,55 @@
       <name>Cold-Blooded</name>
       <notes>If a character with this quality is wearing a suitable piece of clothing/armor (such as a jacket) with the Insulation modification, then the negative effects are reduced. For the purposes of this negative quality, rating 4 Insulation or higher allows you to treat the temperature as up to ten degrees warmer, while rating 6 Insulation allows you to treat the temperature as up to twenty degrees warmer.</notes>
     </quality>
+	    <quality>
+      <name>Codeslinger</name>
+      <limit>True</limit>
+    </quality>
+    <quality>
+      <name>Natural Immunity (Natural)</name>
+      <limit>True</limit>
+    </quality>
+    <quality>
+      <name>Natural Immunity (Synthetic)</name>
+      <limit>True</limit>
+    </quality>
+    <quality>
+      <name>Spirit Affinity</name>
+      <limit>True</limit>
+    </quality>
+    <quality>
+      <name>Brand Loyalty (Manufacturer)</name>
+      <limit>True</limit>
+    </quality>
+    <quality>
+      <name>Brand Loyalty (Product)</name>=
+      <limit>True</limit>
+    </quality>
+    <quality>
+      <name>Sensei</name>
+      <limit>True</limit>
+    </quality>
+    <quality>
+      <name>Solid Rep</name>
+      <limit>True</limit>
+    </quality>
+    <quality>
+      <name>Legendary Rep</name>
+      <limit>True</limit>
+    </quality>
+    <quality>
+      <name>Metahuman Traits</name>
+      <limit>True</limit>
+    </quality>
+    <quality>
+      <name>Elemental Focus</name>
+      <limit>True</limit>
+    </quality>
+    <quality>
+      <name>Sprite Affinity</name>
+      <limit>True</limit>
+    </quality>
+
     <!-- End Region -->
   </qualities>
 </chummer>
