@@ -67,8 +67,8 @@
           <quality>Blighted (12 Months)</quality>
           <quality>Blind</quality>
           <quality>Deaf</quality>
-          <quality>Dimmer Bulb</quality>
-          <quality>Illness</quality>
+          <quality rating="2">Dimmer Bulb</quality>
+          <quality rating="2">Illness</quality>
           <quality>Incomplete Deprogramming</quality>
           <quality>Insomnia (Basic)</quality>
           <quality>Low Pain Tolerance</quality>
@@ -79,7 +79,7 @@
           <quality>Poor Self Control (Compulsive IV, Personal)</quality>
           <quality>Reduce Sense (Touch)</quality>
           <quality>Wanted</quality>
-          <quality>Weak Immune System </quality>
+          <quality>Weak Immune System</quality>
         </selectquality>
       </bonus>
     </quality>
@@ -164,21 +164,25 @@
       <name>Ex-Con</name>
       <karma>-20</karma>
     </quality>
+    <quality> <!-- Bad Rep -->
+      <name>Bad Rep</name>
+      <careeronly />
+    </quality>
+    <quality> <!-- Wanted -->
+      <name>Wanted</name>
+      <careeronly />
     <!-- Region Banned Positive Qualities -->
     <quality> <!-- Barehanded Adept -->
       <name>Barehanded Adept</name>
       <hide />
     </quality>
+    <!-- Region Banned Positive Qualities -->
     <quality> <!-- Better to be Feared Than Loved -->
       <name>Better to be Feared Than Loved</name>
       <hide />
     </quality>	
     <quality> <!-- Community Connection -->
       <name>Community Connection</name>
-      <hide />
-    </quality>
-    <quality> <!-- Dark Ally -->
-      <name>Dark Ally</name>
       <hide />
     </quality>
     <quality> <!-- Erased -->
@@ -379,10 +383,6 @@
     </quality>
     <quality> <!-- Every Man For Himself -->
       <name>Every Man For Himself</name>
-      <hide />
-    </quality>
-    <quality> <!-- Faceless -->
-      <name>Faceless</name>
       <hide />
     </quality>
     <quality> <!-- Force of Chaos -->
