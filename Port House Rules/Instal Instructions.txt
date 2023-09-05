@@ -1,0 +1,31 @@
+Welcome to the Port In The Storm. Here are the basic instructions on how to properly install the amends files.
+
+
+1: Install the Settings Files
+
+
+You will find 3 Settings Files:
+
+Port Point Buy.xml
+Point Priority.xml
+Port STT.xml
+
+
+
+Move all 3 of these files into Chummer’s Settings folder in the location where you installed Chummer. You may need to launch Chummer for the first time for this folder to appear.
+
+
+2: Instal Amends files
+
+In the same location where you found the Settings folder, look for a folder called customdata
+
+
+From this download, move the entire Port House Rules folder, including the folder itself, into the customdata folder.
+
+
+
+
+Launch Chummer and check to confirm everything is working correctly by selecting any of the Port Settings files when making a new character.
+
+
+Have fun!
