@@ -1,4 +1,4 @@
-Welcome to the Port In The Storm. Here are the basic instructions on how to properly install the amends files.
+Welcome to the Port In The Storm. Here are the basic instructions on how to properly install the amends files. You should also have found an image file which visually shows you how to install the amends. These are both offering the same information, just in different ways.
 
 
 1: Install the Settings Files
@@ -29,3 +29,5 @@ Launch Chummer and check to confirm everything is working correctly by selecting
 
 
 Have fun!
+
+Oh yeah, after all of that, feel free to delete this file, and everything else you haven't moved.
