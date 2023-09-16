@@ -124,6 +124,20 @@
       <ammo>4(m)</ammo>
       <conceal>0</conceal>
     </weapon>
+    <!--  BEGIN BIO WEAPONS  -->
+    <weapon>
+      <id>bdb9e0d7-fba7-48ed-ba16-2b540f8ce151</id>  <!-- Fangs (Bio-Weapon) -->
+      <accuracy>Physical</accuracy>
+    </weapon>
+    <weapon>
+      <id>576770af-b5da-4b76-afdf-5559e7401e2d</id>  <!-- Retractable Fangs (Bio-Weapon) -->
+      <accuracy>Physical</accuracy>
+    </weapon>
+    <!--  BEGIN CYBER WEAPONS I GUESS -->
+    <weapon>
+      <id>8a842089-5a2c-43ee-9613-7f3db793fa71</id> <!-- Cyberfangs -->
+      <accuracy>Physical</accuracy>
+    </weapon>
     <weapon>
       <id>fe835c72-a973-4976-bf5f-751aff1371d4</id> <!-- spurs -->
       <category>Cyberweapon</category>
