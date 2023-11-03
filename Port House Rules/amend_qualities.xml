@@ -171,10 +171,6 @@
     <quality> <!-- Wanted -->
       <name>Wanted</name>
       <careeronly />
-    <!-- Region Banned Positive Qualities -->
-    <quality> <!-- Barehanded Adept -->
-      <name>Barehanded Adept</name>
-      <hide />
     </quality>
     <!-- Region Banned Positive Qualities -->
     <quality> <!-- Better to be Feared Than Loved -->
@@ -608,7 +604,7 @@
       <limit>True</limit>
     </quality>
     <quality>
-      <name>Brand Loyalty (Product)</name>=
+      <name>Brand Loyalty (Product)</name>
       <limit>True</limit>
     </quality>
     <quality>
