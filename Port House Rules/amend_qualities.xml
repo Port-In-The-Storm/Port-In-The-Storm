@@ -133,17 +133,7 @@
         </oneof>
       </required>
     </quality>
-	<quality> <!-- Witness My Hate -->
-      <id>f8af38e2-e79a-44f9-8e72-57aba35b7056</id>
-      <required>
-        <oneof amendoperation="replace">
-          <quality>Aspected Magician</quality>
-          <quality>Magician</quality>
-		  <quality>Mystic Adept</quality>
-        </oneof>
-      </required>
-    </quality>
-	<quality> <!-- SINner (Corporate) -->
+    <quality> <!-- SINner (Corporate) -->
       <id>e00623e1-54b0-4a91-b234-3c7e141deef4</id>
       <karma>-10</karma>
     </quality>
