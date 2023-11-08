@@ -210,7 +210,7 @@
 	<prioritytable>Standard</prioritytable>
 	<sumtoten>10</sumtoten>
 	<availability>12</availability>
-	<nuyenmaxbp>200</nuyenmaxbp>
+	<nuyenmaxbp>235</nuyenmaxbp>
 	<bannedwaregrades>
 		<grade>Greyware</grade>
 		<grade>Omegaware</grade>
