@@ -870,10 +870,12 @@
 			<optionalpowers>
 			  <optionalpower>Infected Improvement (Willpower)</optionalpower>
 			  <optionalpower>Infected Improvement (Intuition)</optionalpower>
+			  <optionalpower>Infected Improvement (Charisma)</optionalpower>
 			</optionalpowers>
 			<optionalpowers>
 			  <optionalpower>Infected Improvement (Willpower)</optionalpower>
 			  <optionalpower>Infected Improvement (Intuition)</optionalpower>
+			  <optionalpower>Infected Improvement (Charisma)</optionalpower>
 			</optionalpowers>
 			<walkmultiplier>
 			  <category>Ground</category>
@@ -1013,10 +1015,12 @@
 			<optionalpowers>
 			  <optionalpower>Infected Improvement (Willpower)</optionalpower>
 			  <optionalpower>Infected Improvement (Intuition)</optionalpower>
+			  <optionalpower>Infected Improvement (Charisma)</optionalpower>
 			</optionalpowers>
 			<optionalpowers>
 			  <optionalpower>Infected Improvement (Willpower)</optionalpower>
 			  <optionalpower>Infected Improvement (Intuition)</optionalpower>
+			  <optionalpower>Infected Improvement (Charisma)</optionalpower>
 			</optionalpowers>
 			<walkmultiplier>
 			  <category>Ground</category>
@@ -1153,10 +1157,12 @@
 			<optionalpowers>
 			  <optionalpower>Infected Improvement (Willpower)</optionalpower>
 			  <optionalpower>Infected Improvement (Intuition)</optionalpower>
+			  <optionalpower>Infected Improvement (Charisma)</optionalpower>
 			</optionalpowers>
 			<optionalpowers>
 			  <optionalpower>Infected Improvement (Willpower)</optionalpower>
 			  <optionalpower>Infected Improvement (Intuition)</optionalpower>
+			  <optionalpower>Infected Improvement (Charisma)</optionalpower>
 			</optionalpowers>
 			<walkmultiplier>
 			  <category>Ground</category>
@@ -1293,10 +1299,12 @@
 			<optionalpowers>
 			  <optionalpower>Infected Improvement (Willpower)</optionalpower>
 			  <optionalpower>Infected Improvement (Intuition)</optionalpower>
+			  <optionalpower>Infected Improvement (Charisma)</optionalpower>
 			</optionalpowers>
 			<optionalpowers>
 			  <optionalpower>Infected Improvement (Willpower)</optionalpower>
 			  <optionalpower>Infected Improvement (Intuition)</optionalpower>
+			  <optionalpower>Infected Improvement (Charisma)</optionalpower>
 			</optionalpowers>
 			<walkmultiplier>
 			<category>Ground</category>
@@ -1927,9 +1935,9 @@
 		  <source>RF</source>
 		  <page>137</page>
 		</quality>
-		<quality> <!-- Infected: Dzoo-Noo-Qua (Munotaur) -->
+		<quality> <!-- Infected: Dzoo-Noo-Qua (Minotaur) -->
 		  <id>ed90abbe-88b7-4de8-a26e-55375a83c02d</id>
-		  <name>Infected: Dzoo-Noo-Qua (Munotaur)</name>
+		  <name>Infected: Dzoo-Noo-Qua (Minotaur)</name>
 		  <karma>43</karma>
 		  <category>Positive</category>
 		  <contributetolimit>False</contributetolimit>
@@ -6567,6 +6575,356 @@
 		  </required>
 		  <source>RF</source>
 		  <page>140</page>
+		</quality>
+		<quality> <!-- Infected Optional Power: Armor -->
+		  <id>a07af701-81a3-4a2d-826d-644588945bf5</id>
+		  <name>Infected Optional Power: Armor</name>
+		  <karma>6</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <limit>False</limit>
+		  <bonus>
+			<critterpowers>
+			  <power rating="1">Armor</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+			  <quality>Infected: Dzoo-Noo-Qua</quality>
+			  <quality>Infected: Dzoo-Noo-Qua (Cyclops)</quality>
+			  <quality>Infected: Dzoo-Noo-Qua (Fomorian)</quality>
+			  <quality>Infected: Dzoo-Noo-Qua (Giant)</quality>
+			  <quality>Infected: Dzoo-Noo-Qua (Minotaur)</quality>
+			  <quality>Infected: Gnawer</quality>
+			  <quality>Infected: Gnawer (Gnome)</quality>
+			  <quality>Infected: Gnawer (Hanuman)</quality>
+			  <quality>Infected: Gnawer (Koborokuru)</quality>
+			  <quality>Infected: Gnawer (Menehune)</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
+		</quality>
+		<quality> <!-- Infected Optional Power: Enhanced Sense (Hearing) -->
+		  <id>63bd698c-38d8-41ea-9fb6-5abf1f7ae600</id>
+		  <name>Infected Optional Power: Enhanced Sense (Hearing)</name>
+		  <karma>3</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<critterpowers>
+			  <power select="Hearing">Enhanced Senses</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+			  <quality>Infected: Banshee</quality>
+			  <quality>Infected: Banshee (Dryad)</quality>
+			  <quality>Infected: Banshee (Nocturna)</quality>
+			  <quality>Infected: Banshee (Xapiri Thepe)</quality>
+			  <quality>Infected: Dzoo-Noo-Qua</quality>
+			  <quality>Infected: Dzoo-Noo-Qua (Cyclops)</quality>
+			  <quality>Infected: Dzoo-Noo-Qua (Fomorian)</quality>
+			  <quality>Infected: Dzoo-Noo-Qua (Giant)</quality>
+			  <quality>Infected: Dzoo-Noo-Qua (Minotaur)</quality>
+			  <quality>Infected: Vampire</quality>
+			  <quality>Infected: Wendigo</quality>
+			  <quality>Infected: Wendigo (Hobgoblin)</quality>
+			  <quality>Infected: Wendigo (Ogre)</quality>
+			  <quality>Infected: Wendigo (Oni)</quality>
+			  <quality>Infected: Wendigo (Satyr)</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
+		</quality>
+		<quality> <!-- Infected Optional Power: Enhanced Sense (Smell) -->
+		  <id>fa41afaa-88c1-4df8-a473-d57ef355b537</id>
+		  <name>Infected Optional Power: Enhanced Sense (Smell)</name>
+		  <karma>3</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<critterpowers>
+			  <power select="Smell">Enhanced Senses</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+			  <quality>Infected: Banshee</quality>
+			  <quality>Infected: Banshee (Dryad)</quality>
+			  <quality>Infected: Banshee (Nocturna)</quality>
+			  <quality>Infected: Banshee (Xapiri Thepe)</quality>
+			  <quality>Infected: Vampire</quality>
+			  <quality>Infected: Wendigo</quality>
+			  <quality>Infected: Wendigo (Hobgoblin)</quality>
+			  <quality>Infected: Wendigo (Ogre)</quality>
+			  <quality>Infected: Wendigo (Oni)</quality>
+			  <quality>Infected: Wendigo (Satyr)</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
+		</quality>
+		<quality> <!-- Infected Optional Power: Enhanced Sense (Visual Acuity) -->
+		  <id>a5ebb7f3-792f-4200-8140-614892c2c962</id>
+		  <name>Infected Optional Power: Enhanced Sense (Visual Acuity)</name>
+		  <karma>3</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<critterpowers>
+			  <power select="Visual Acuity">Enhanced Senses</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+			  <quality>Infected: Wendigo</quality>
+			  <quality>Infected: Wendigo (Hobgoblin)</quality>
+			  <quality>Infected: Wendigo (Ogre)</quality>
+			  <quality>Infected: Wendigo (Oni)</quality>
+			  <quality>Infected: Wendigo (Satyr)</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
+		</quality>
+		<quality> <!-- Infected Optional Power: Enhanced Sense (Thermographic Vision) -->
+		  <id>f5caa63e-c51b-4026-938f-f0460311371d</id>
+		  <name>Infected Optional Power: Enhanced Sense (Thermographic Vision)</name>
+		  <karma>3</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<critterpowers>
+			  <power select="Thermographic Vision">Enhanced Senses</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+			  <quality>Infected: Vampire</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
+		</quality>
+		<quality> <!-- Infected Optional Power: Immunity (Pathogens) -->
+		  <id>fcef82c0-a6d6-4314-ad57-5aba5ba8b27a</id>
+		  <name>Infected Optional Power: Immunity (Pathogens)</name>
+		  <karma>6</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<critterpowers>
+			  <power select="Pathogens">Immunity</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+			  <quality>Infected: Banshee</quality>
+			  <quality>Infected: Banshee (Dryad)</quality>
+			  <quality>Infected: Banshee (Nocturna)</quality>
+			  <quality>Infected: Banshee (Xapiri Thepe)</quality>
+			  <quality>Infected: Vampire</quality>
+			  <quality>Infected: Wendigo</quality>
+			  <quality>Infected: Wendigo (Hobgoblin)</quality>
+			  <quality>Infected: Wendigo (Ogre)</quality>
+			  <quality>Infected: Wendigo (Oni)</quality>
+			  <quality>Infected: Wendigo (Satyr)</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
+		</quality>
+		<quality> <!-- Infected Advanced Power: Bone Spikes -->
+		  <id>1ccc988a-b0bc-43af-85e9-854192bf1370</id>
+		  <name>Infected Advanced Power:  Bone Spikes</name>
+		  <karma>5</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<critterpowers>
+			  <power>Bone Spikes</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+			  <quality>Infected: Dzoo-Noo-Qua</quality>
+			  <quality>Infected: Dzoo-Noo-Qua (Cyclops)</quality>
+			  <quality>Infected: Dzoo-Noo-Qua (Fomorian)</quality>
+			  <quality>Infected: Dzoo-Noo-Qua (Giant)</quality>
+			  <quality>Infected: Dzoo-Noo-Qua (Minotaur)</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
+		</quality>
+		<quality> <!-- Infected Advanced Power: Corrosive Spit (Infected) -->
+		  <id>f4274a62-38bb-4a28-8462-3c24d4d2be70</id>
+		  <name>Infected Advanced Power: Corrosive Spit (Infected)</name>
+		  <karma>9</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<critterpowers>
+			  <power>Corrosive Spit (Infected)</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+			  <quality>Infected: Ghoul (Dwarf)</quality>
+			  <quality>Infected: Ghoul (Elf)</quality>
+			  <quality>Infected: Ghoul (Human)</quality>
+			  <quality>Infected: Ghoul (Ork)</quality>
+			  <quality>Infected: Ghoul (Sasquatch)</quality>
+			  <quality>Infected: Ghoul (Troll)</quality>
+			  <quality>Infected: Ghoul (Gnome)</quality>
+			  <quality>Infected: Ghoul (Hanuman)</quality>
+			  <quality>Infected: Ghoul (Koborokuru)</quality>
+			  <quality>Infected: Ghoul (Menehune)</quality>
+			  <quality>Infected: Ghoul (Dryad)</quality>
+			  <quality>Infected: Ghoul (Nocturna)</quality>
+			  <quality>Infected: Ghoul (Wakyambi)</quality>
+			  <quality>Infected: Ghoul (Xapiri Thepe)</quality>
+			  <quality>Infected: Ghoul (Hobgoblin)</quality>
+			  <quality>Infected: Ghoul (Ogre)</quality>
+			  <quality>Infected: Ghoul (Oni)</quality>
+			  <quality>Infected: Ghoul (Satyr)</quality>
+			  <quality>Infected: Ghoul (Cyclops)</quality>
+			  <quality>Infected: Ghoul (Fomorian)</quality>
+			  <quality>Infected: Ghoul (Giant)</quality>
+			  <quality>Infected: Ghoul (Minotaur)</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
+		</quality>
+		<quality> <!-- Infected Advanced Power: Gnashing Teeth -->
+		  <id>e0304806-6657-46ae-95db-1883d486dd2e</id>
+		  <name>Infected Advanced Power: Gnashing Teeth</name>
+		  <karma>6</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<critterpowers>
+			  <power>Gnashing Teeth</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+			  <quality>Infected: Gnawer</quality>
+			  <quality>Infected: Gnawer (Gnome)</quality>
+			  <quality>Infected: Gnawer (Hanuman)</quality>
+			  <quality>Infected: Gnawer (Koborokuru)</quality>
+			  <quality>Infected: Gnawer (Menehune)</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
+		</quality>
+		<quality> <!-- Infected Advanced Power: Rat King -->
+		  <id>b1c43d79-6fcf-4757-be3b-b1f60928fc0a</id>
+		  <name>Infected Advanced Power: Rat King</name>
+		  <karma>12</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<critterpowers>
+			  <power>Rat King</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+			  <quality>Infected: Gnawer</quality>
+			  <quality>Infected: Gnawer (Gnome)</quality>
+			  <quality>Infected: Gnawer (Hanuman)</quality>
+			  <quality>Infected: Gnawer (Koborokuru)</quality>
+			  <quality>Infected: Gnawer (Menehune)</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
+		</quality>
+		<quality> <!-- Infected Advanced Power: Secretion/Substance Extrusion (Anti-Coagulant) -->
+		  <id>9f5c88da-18be-416f-b719-c2b3fe66c74d</id>
+		  <name>Infected Advanced Power: Secretion/Substance Extrusion (Anti-Coagulant)</name>
+		  <karma>9</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<critterpowers>
+			  <power>Secretion/Substance Extrusion (Anti-Coagulant)</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+				<quality>Infected: Vampire</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
+		</quality>
+		<quality> <!-- Infected Advanced Power: Sonic Shriek -->
+		  <id>f08cdcf5-09e8-42ba-aed8-00c91793f79d</id>
+		  <name>Infected Advanced Power: Sonic Shriek</name>
+		  <karma>9</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<critterpowers>
+			  <power>Sonic Shriek</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+			  <quality>Infected: Banshee</quality>
+			  <quality>Infected: Banshee (Dryad)</quality>
+			  <quality>Infected: Banshee (Nocturna)</quality>
+			  <quality>Infected: Banshee (Xapiri Thepe)</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
+		</quality>
+		<quality> <!-- Infected Advanced Power: Tunneling Claws -->
+		  <id>d0df057d-f12c-48d7-97fe-dc4c3e546076</id>
+		  <name>Infected Advanced Power: Tunneling Claws</name>
+		  <karma>9</karma>
+		  <category>Positive</category>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<critterpowers>
+			  <power>Tunneling Claws</power>
+			</critterpowers>
+		  </bonus>
+		  <required>
+			<oneof>
+			  <quality>Infected: Ghoul (Dwarf)</quality>
+			  <quality>Infected: Ghoul (Elf)</quality>
+			  <quality>Infected: Ghoul (Human)</quality>
+			  <quality>Infected: Ghoul (Ork)</quality>
+			  <quality>Infected: Ghoul (Sasquatch)</quality>
+			  <quality>Infected: Ghoul (Troll)</quality>
+			  <quality>Infected: Ghoul (Gnome)</quality>
+			  <quality>Infected: Ghoul (Hanuman)</quality>
+			  <quality>Infected: Ghoul (Koborokuru)</quality>
+			  <quality>Infected: Ghoul (Menehune)</quality>
+			  <quality>Infected: Ghoul (Dryad)</quality>
+			  <quality>Infected: Ghoul (Nocturna)</quality>
+			  <quality>Infected: Ghoul (Wakyambi)</quality>
+			  <quality>Infected: Ghoul (Xapiri Thepe)</quality>
+			  <quality>Infected: Ghoul (Hobgoblin)</quality>
+			  <quality>Infected: Ghoul (Ogre)</quality>
+			  <quality>Infected: Ghoul (Oni)</quality>
+			  <quality>Infected: Ghoul (Satyr)</quality>
+			  <quality>Infected: Ghoul (Cyclops)</quality>
+			  <quality>Infected: Ghoul (Fomorian)</quality>
+			  <quality>Infected: Ghoul (Giant)</quality>
+			  <quality>Infected: Ghoul (Minotaur)</quality>
+			</oneof>
+		  </required>
+		  <source>RF</source>
+		  <page>136</page>
 		</quality>
 	</qualities>
 </chummer>

@@ -47,7 +47,8 @@
       <required amendoperation="remove" />
     </quality>
     <!-- End Region -->
-    <quality> Special Modifications
+	<!-- Region Changed Qualities -->
+    <quality> <!-- Special Modifications -->
       <name>Special Modifications</name>
       <limit>3</limit>
       <bonus amendoperation="remove" />
@@ -103,28 +104,48 @@
           <quality>Apprentice</quality>
           <quality>Magician</quality>
           <quality>Mystic Adept</quality>
-          <quality>Infected: Bandersnatch</quality>
-		  <quality>Infected: Banshee</quality>
-		  <quality>Infected: Dzoo-Noo-Qua</quality>
-		  <quality>Infected: Fomoraig</quality>
-		  <quality>Infected: Ghoul (Dwarf)</quality>
-		  <quality>Infected: Ghoul (Elf)</quality>
-		  <quality>Infected: Ghoul (Human)</quality>
-		  <quality>Infected: Ghoul (Ork)</quality>
-		  <quality>Infected: Ghoul (Sasquatch)</quality>
-		  <quality>Infected: Ghoul (Troll)</quality>
-		  <quality>Infected: Gnawer</quality>
-		  <quality>Infected: Goblin</quality>
-		  <quality>Infected: Grendel</quality>
-		  <quality>Infected: Harvester</quality>
-		  <quality>Infected: Loup-Garou</quality>
-		  <quality>Infected: Mutaqua</quality>
-		  <quality>Infected: Nosferatu</quality>
-		  <quality>Infected: Vampire (Human)</quality>
-		  <quality>Infected: Vampire (Non-Human)</quality>
-		  <quality>Infected: Sukuyan (Human)</quality>
-		  <quality>Infected: Sukuyan (Non-Human)</quality>
-          <quality>Infected: Wendigo</quality>
+		  <id>dbe9f55d-0350-4bd6-8e90-1174070558b4</id>
+		  <id>801ac5f1-c1cb-4524-80d6-743606f4dd1a</id>
+		  <id>22c89c6a-e462-4c35-9f89-615afb335ea1</id>
+		  <id>b3ab55ac-7d99-40e3-b864-ada87f198fb6</id>
+		  <id>cee6f6ff-19fc-4760-a4fc-be97810aa325</id>
+		  <id>6556d48f-2cbd-4bc6-a2c8-e9fe3f99ac7e</id>
+		  <id>6cc8196b-58b6-4e97-b95e-4369cd3351fb</id>
+		  <id>ae39af64-0d70-4262-b696-27231c50483d</id>
+		  <id>ed90abbe-88b7-4de8-a26e-55375a83c02d</id>
+		  <id>25b62a16-33e3-410d-a2e0-213c94a6e638</id>
+		  <id>ee3a264d-7d0f-4824-8c2f-60f6fc0a6dbc</id>
+		  <id>4488bde5-c5bd-4a29-88c5-912b57b6627e</id>
+		  <id>276aad37-7601-474b-96c3-94f34cf1b42f</id>
+		  <id>feecb5de-f912-4f9e-91e8-31549a253a17</id>
+		  <id>d8d39a1c-7f5a-4f92-8e2f-0c0d6a656af0</id>
+		  <id>aeb0e293-ea68-41ab-96b7-a4fd77a11c9f</id>
+		  <id>4e1bcf5b-c3f9-4595-a703-267e0d4a195a</id>
+		  <id>f10e37d5-dd7f-42bd-af5e-b8edf4ebd080</id>
+		  <id>f3976607-bb82-4126-ac13-7771257c3790</id>
+		  <id>d050cd26-c1bb-416b-9721-28a658d791f6</id>
+		  <id>701b048d-040c-42cc-9ba9-16646f869aef</id>
+		  <id>5e440e3c-f855-43bb-9b89-913ded2c7143</id>
+		  <id>6c1b0e4a-3834-40fd-810d-9c481928d03b</id>
+		  <id>e2e49dcb-745f-444b-8834-33c19f89ea97</id>
+		  <id>7070280e-e7cc-4bb7-97e5-26b4fe8550a4</id>
+		  <id>ea7c269f-6843-488a-b0fa-8f79c935f568</id>
+		  <id>b72562ed-f70e-4bc6-b13e-473d4a66412d</id>
+		  <id>f0c6a049-6f10-4fa7-a3d8-71634d4aa7d7</id>
+		  <id>4924711d-c941-4bfe-961d-3b82b780bdb8</id>
+		  <id>dfd40a51-28b6-491c-b08d-81333a4e6c3a</id>
+		  <id>3dc0e4df-956b-46ff-be95-cf20efdd71ab</id>		
+		  <id>5f31925d-cc76-49da-acab-644b66d5e93d</id>
+		  <id>c2188db2-9e8b-4b01-abdc-3c4831eef088</id>
+		  <id>7f594867-1841-4a1a-9909-daab1f3b74bf</id>
+		  <id>e9bc8bad-4121-4f2b-88c6-5618edc9ba2c</id>
+		  <id>13395b01-e5bc-4d05-9f92-57dc06508818</id>
+		  <id>7b300039-ca3e-4ab8-a50b-46895ca0f07b</id>
+		  <id>89d29e90-c9c6-4b39-8c42-3294e39fd484</id>
+		  <id>deda2435-5cf2-40e6-bdef-bab375051bd7</id>
+		  <id>a48a13c5-f229-4777-ad03-f39579c1fb5a</id>
+		  <id>0ea67a48-4b8d-4539-9ca4-20e808a87e8d</id>
+		  <id>1aa40079-7465-4a2f-be44-01094e81a930</id>
 		  <metatype>Naga</metatype>
           <metatype>Pixie</metatype>
           <metatype>Centaur</metatype>
@@ -133,7 +154,17 @@
         </oneof>
       </required>
     </quality>
-    <quality> <!-- SINner (Corporate) -->
+	<quality> <!-- Witness My Hate -->
+      <id>f8af38e2-e79a-44f9-8e72-57aba35b7056</id>
+      <required>
+        <oneof amendoperation="replace">
+          <quality>Aspected Magician</quality>
+          <quality>Magician</quality>
+		  <quality>Mystic Adept</quality>
+        </oneof>
+      </required>
+    </quality>
+	<quality> <!-- SINner (Corporate) -->
       <id>e00623e1-54b0-4a91-b234-3c7e141deef4</id>
       <karma>-10</karma>
     </quality>
@@ -162,6 +193,13 @@
       <name>Wanted</name>
       <careeronly />
     </quality>
+	<quality> <!-- Cold-Blooded -->
+      <name>Cold-Blooded</name>
+      <notes>
+		If a character with this quality is wearing a suitable piece of clothing/armor (such as a jacket) with the Insulation modification, then the negative effects are reduced. For the purposes of this negative quality, rating 4 Insulation or higher allows you to treat the temperature as up to ten degrees warmer, while rating 6 Insulation allows you to treat the temperature as up to twenty degrees warmer.
+	  </notes>
+    </quality>
+	<!-- End Region -->
     <!-- Region Banned Positive Qualities -->
     <quality> <!-- Better to be Feared Than Loved -->
       <name>Better to be Feared Than Loved</name>
@@ -187,7 +225,8 @@
       <name>Revels in Murder</name>
       <hide />
     </quality>
-	<!-- Blood Crystal qualities start -->
+	<!-- End Region -->
+	<!-- Region Blood Crystal Qualities -->
     <quality>
       <name>Crystal Breath</name>
       <hide />
@@ -284,27 +323,6 @@
       <name>Crystalline Reflexes</name>
       <hide />
     </quality>
-    <quality>
-      <name>Latent Dracomorphosis</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Dracoform (Eastern Drake)</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Dracoform (Western Drake)</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Dracoform (Feathered Drake)</name>
-      <hide />
-    </quality>
-    <quality>
-      <name>Dracoform (Sea Drake)</name>
-      <hide />
-    </quality>
-	<!-- Blood Crystal qualities finish -->
     <!-- End Region -->
     <!-- Region Banned Negative Qualities -->
     <quality> <!-- Alpha Junkie -->
@@ -541,7 +559,9 @@
 	  <id>652948f9-e629-4dea-bd13-776dd41ca6a1</id>
 	  <hide />
     </quality>
-    <quality>
+    <!-- End Region -->
+	<!-- Region Infected Optional Powers -->
+	<quality>
       <name>Infected Optional Power: Compulsion</name>
       <hide />
     </quality>
@@ -585,15 +605,38 @@
       <name>Infected Optional Power: Regeneration</name>
       <hide />
     </quality>
-    <quality>
-      <name>Infected Optional Power: Immunity (Toxins)</name>
-      <hide />
-    </quality>	
-	<quality> <!-- Cold-Blooded -->
-      <name>Cold-Blooded</name>
-      <notes>If a character with this quality is wearing a suitable piece of clothing/armor (such as a jacket) with the Insulation modification, then the negative effects are reduced. For the purposes of this negative quality, rating 4 Insulation or higher allows you to treat the temperature as up to ten degrees warmer, while rating 6 Insulation allows you to treat the temperature as up to twenty degrees warmer.</notes>
-    </quality>
-	    <quality>
+	<quality>
+		<id>f466b913-5df0-4370-abf0-fad4ab380d19</id>
+		<hide />
+	</quality>
+	<quality>
+		  <id>ae0312ad-acb2-4ae8-974e-99af82e81211</id>
+		<hide />
+	</quality>
+	<quality>
+		  <id>c0e9082b-4930-4f0a-8d84-090878a28a7b</id>
+		<hide />
+	</quality>
+	<quality>
+		  <id>28d06111-33e6-4260-a4f3-bca94d3b5afa</id>
+		<hide />
+	</quality>
+	<quality>
+		  <id>28d06111-33e6-4260-a4f3-bca94d3b5afa</id>
+		<hide />
+	</quality>
+	<quality>
+		  <id>b0460fde-7bf8-4e77-b402-6fe7143aa590</id>
+		<hide />
+	</quality>
+	<quality>
+		  <id>0baaaa57-d738-448e-8f0f-cdb96357c4ef</id>
+		<hide />
+	</quality>
+		  
+	<!-- End Region -->
+	<!-- Region Non-multi-purchaseable Qualities -->
+	<quality>
       <name>Codeslinger</name>
       <limit>True</limit>
     </quality>
@@ -641,7 +684,6 @@
       <name>Sprite Affinity</name>
       <limit>True</limit>
     </quality>
-
     <!-- End Region -->
   </qualities>
 </chummer>
