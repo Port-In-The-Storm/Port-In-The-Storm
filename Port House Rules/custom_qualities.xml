@@ -5728,6 +5728,7 @@
 			  <resenabled />
 			  <depenabled />
 			  <quality>Latent Dracomorphosis</quality>
+			  <limitcritterpowercategory>Infected</limitcritterpowercategory>
 			</oneof>
 		  </forbidden>
 		  <required>
@@ -6576,169 +6577,9 @@
 		  <source>RF</source>
 		  <page>140</page>
 		</quality>
-		<quality> <!-- Infected Optional Power: Armor -->
-		  <id>a07af701-81a3-4a2d-826d-644588945bf5</id>
-		  <name>Infected Optional Power: Armor</name>
-		  <karma>6</karma>
-		  <category>Positive</category>
-		  <doublecareer>False</doublecareer>
-		  <limit>False</limit>
-		  <bonus>
-			<critterpowers>
-			  <power rating="1">Armor</power>
-			</critterpowers>
-		  </bonus>
-		  <required>
-			<oneof>
-			  <quality>Infected: Dzoo-Noo-Qua</quality>
-			  <quality>Infected: Dzoo-Noo-Qua (Cyclops)</quality>
-			  <quality>Infected: Dzoo-Noo-Qua (Fomorian)</quality>
-			  <quality>Infected: Dzoo-Noo-Qua (Giant)</quality>
-			  <quality>Infected: Dzoo-Noo-Qua (Minotaur)</quality>
-			  <quality>Infected: Gnawer</quality>
-			  <quality>Infected: Gnawer (Gnome)</quality>
-			  <quality>Infected: Gnawer (Hanuman)</quality>
-			  <quality>Infected: Gnawer (Koborokuru)</quality>
-			  <quality>Infected: Gnawer (Menehune)</quality>
-			</oneof>
-		  </required>
-		  <source>RF</source>
-		  <page>136</page>
-		</quality>
-		<quality> <!-- Infected Optional Power: Enhanced Sense (Hearing) -->
-		  <id>63bd698c-38d8-41ea-9fb6-5abf1f7ae600</id>
-		  <name>Infected Optional Power: Enhanced Sense (Hearing)</name>
-		  <karma>3</karma>
-		  <category>Positive</category>
-		  <doublecareer>False</doublecareer>
-		  <bonus>
-			<critterpowers>
-			  <power select="Hearing">Enhanced Senses</power>
-			</critterpowers>
-		  </bonus>
-		  <required>
-			<oneof>
-			  <quality>Infected: Banshee</quality>
-			  <quality>Infected: Banshee (Dryad)</quality>
-			  <quality>Infected: Banshee (Nocturna)</quality>
-			  <quality>Infected: Banshee (Xapiri Thepe)</quality>
-			  <quality>Infected: Dzoo-Noo-Qua</quality>
-			  <quality>Infected: Dzoo-Noo-Qua (Cyclops)</quality>
-			  <quality>Infected: Dzoo-Noo-Qua (Fomorian)</quality>
-			  <quality>Infected: Dzoo-Noo-Qua (Giant)</quality>
-			  <quality>Infected: Dzoo-Noo-Qua (Minotaur)</quality>
-			  <quality>Infected: Vampire</quality>
-			  <quality>Infected: Wendigo</quality>
-			  <quality>Infected: Wendigo (Hobgoblin)</quality>
-			  <quality>Infected: Wendigo (Ogre)</quality>
-			  <quality>Infected: Wendigo (Oni)</quality>
-			  <quality>Infected: Wendigo (Satyr)</quality>
-			</oneof>
-		  </required>
-		  <source>RF</source>
-		  <page>136</page>
-		</quality>
-		<quality> <!-- Infected Optional Power: Enhanced Sense (Smell) -->
-		  <id>fa41afaa-88c1-4df8-a473-d57ef355b537</id>
-		  <name>Infected Optional Power: Enhanced Sense (Smell)</name>
-		  <karma>3</karma>
-		  <category>Positive</category>
-		  <doublecareer>False</doublecareer>
-		  <bonus>
-			<critterpowers>
-			  <power select="Smell">Enhanced Senses</power>
-			</critterpowers>
-		  </bonus>
-		  <required>
-			<oneof>
-			  <quality>Infected: Banshee</quality>
-			  <quality>Infected: Banshee (Dryad)</quality>
-			  <quality>Infected: Banshee (Nocturna)</quality>
-			  <quality>Infected: Banshee (Xapiri Thepe)</quality>
-			  <quality>Infected: Vampire</quality>
-			  <quality>Infected: Wendigo</quality>
-			  <quality>Infected: Wendigo (Hobgoblin)</quality>
-			  <quality>Infected: Wendigo (Ogre)</quality>
-			  <quality>Infected: Wendigo (Oni)</quality>
-			  <quality>Infected: Wendigo (Satyr)</quality>
-			</oneof>
-		  </required>
-		  <source>RF</source>
-		  <page>136</page>
-		</quality>
-		<quality> <!-- Infected Optional Power: Enhanced Sense (Visual Acuity) -->
-		  <id>a5ebb7f3-792f-4200-8140-614892c2c962</id>
-		  <name>Infected Optional Power: Enhanced Sense (Visual Acuity)</name>
-		  <karma>3</karma>
-		  <category>Positive</category>
-		  <doublecareer>False</doublecareer>
-		  <bonus>
-			<critterpowers>
-			  <power select="Visual Acuity">Enhanced Senses</power>
-			</critterpowers>
-		  </bonus>
-		  <required>
-			<oneof>
-			  <quality>Infected: Wendigo</quality>
-			  <quality>Infected: Wendigo (Hobgoblin)</quality>
-			  <quality>Infected: Wendigo (Ogre)</quality>
-			  <quality>Infected: Wendigo (Oni)</quality>
-			  <quality>Infected: Wendigo (Satyr)</quality>
-			</oneof>
-		  </required>
-		  <source>RF</source>
-		  <page>136</page>
-		</quality>
-		<quality> <!-- Infected Optional Power: Enhanced Sense (Thermographic Vision) -->
-		  <id>f5caa63e-c51b-4026-938f-f0460311371d</id>
-		  <name>Infected Optional Power: Enhanced Sense (Thermographic Vision)</name>
-		  <karma>3</karma>
-		  <category>Positive</category>
-		  <doublecareer>False</doublecareer>
-		  <bonus>
-			<critterpowers>
-			  <power select="Thermographic Vision">Enhanced Senses</power>
-			</critterpowers>
-		  </bonus>
-		  <required>
-			<oneof>
-			  <quality>Infected: Vampire</quality>
-			</oneof>
-		  </required>
-		  <source>RF</source>
-		  <page>136</page>
-		</quality>
-		<quality> <!-- Infected Optional Power: Immunity (Pathogens) -->
-		  <id>fcef82c0-a6d6-4314-ad57-5aba5ba8b27a</id>
-		  <name>Infected Optional Power: Immunity (Pathogens)</name>
-		  <karma>6</karma>
-		  <category>Positive</category>
-		  <doublecareer>False</doublecareer>
-		  <bonus>
-			<critterpowers>
-			  <power select="Pathogens">Immunity</power>
-			</critterpowers>
-		  </bonus>
-		  <required>
-			<oneof>
-			  <quality>Infected: Banshee</quality>
-			  <quality>Infected: Banshee (Dryad)</quality>
-			  <quality>Infected: Banshee (Nocturna)</quality>
-			  <quality>Infected: Banshee (Xapiri Thepe)</quality>
-			  <quality>Infected: Vampire</quality>
-			  <quality>Infected: Wendigo</quality>
-			  <quality>Infected: Wendigo (Hobgoblin)</quality>
-			  <quality>Infected: Wendigo (Ogre)</quality>
-			  <quality>Infected: Wendigo (Oni)</quality>
-			  <quality>Infected: Wendigo (Satyr)</quality>
-			</oneof>
-		  </required>
-		  <source>RF</source>
-		  <page>136</page>
-		</quality>
 		<quality> <!-- Infected Advanced Power: Bone Spikes -->
 		  <id>1ccc988a-b0bc-43af-85e9-854192bf1370</id>
-		  <name>Infected Advanced Power:  Bone Spikes</name>
+		  <name>Infected Advanced Power: Bone Spikes</name>
 		  <karma>5</karma>
 		  <category>Positive</category>
 		  <doublecareer>False</doublecareer>
