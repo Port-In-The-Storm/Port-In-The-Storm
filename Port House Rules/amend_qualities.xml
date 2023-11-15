@@ -215,6 +215,26 @@
       <name>Revels in Murder</name>
       <hide />
     </quality>
+        <quality>
+      <name>Latent Dracomorphosis</name>
+      <hide />
+    </quality>
+    <quality>
+      <name>Dracoform (Eastern Drake)</name>
+      <hide />
+    </quality>
+    <quality>
+      <name>Dracoform (Western Drake)</name>
+      <hide />
+    </quality>
+    <quality>
+      <name>Dracoform (Feathered Drake)</name>
+      <hide />
+    </quality>
+    <quality>
+      <name>Dracoform (Sea Drake)</name>
+      <hide />
+    </quality>
 	<!-- End Region -->
 	<!-- Region Blood Crystal Qualities -->
     <quality>
