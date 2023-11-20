@@ -58,6 +58,7 @@
     </quality>
     <quality> <!-- Prototype Transhuman -->
       <id>08c4dfad-3661-48d9-a265-43cce84e20d8</id>
+	  <chargenonly />
       <bonus amendoperation="replace">
         <prototypetranshuman>1</prototypetranshuman>
         <selectquality>
@@ -82,6 +83,18 @@
           <quality>Weak Immune System</quality>
         </selectquality>
       </bonus>
+    </quality>
+    <quality> <!-- Black Market Pipeline -->
+      <name>Black Market Pipeline</name>
+	  <chargenonly amendoperation="remove" />
+      <bonus amendoperation="replace">
+        <blackmarketdiscount />
+        <selectcontact />
+      </bonus>
+    </quality>
+    <quality> <!-- Otaku to Technomancer -->
+      <name>Otaku to Technomancer</name>
+	  <chargenonly />
     </quality>
     <quality> <!-- Lightning Reflexes -->
       <id>3564b678-7721-4a8d-ac79-1600cf92dc14</id>
