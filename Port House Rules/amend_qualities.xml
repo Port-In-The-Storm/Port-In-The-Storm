@@ -864,11 +864,21 @@
 			<!-- Brand Loyalty (Manufacturer) -->
 			<name>Brand Loyalty (Manufacturer)</name>
 			<limit amendoperation="replace">True</limit>
+			<forbidden>
+				<oneof>
+					<quality>Brand Loyalty (Product)</quality>
+				</oneof>
+			</forbidden>
 		</quality>
 		<quality>
 			<!-- Brand Loyalty (Product) -->
 			<name>Brand Loyalty (Product)</name>
 			<limit amendoperation="replace">True</limit>
+			<forbidden>
+				<oneof>
+					<quality>Brand Loyalty (Manufacturer)</quality>
+				</oneof>
+			</forbidden>
 		</quality>
 		<quality>
 			<!-- Sensei -->
