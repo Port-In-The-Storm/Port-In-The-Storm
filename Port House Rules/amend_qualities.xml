@@ -843,62 +843,82 @@
 		<quality>
 			<!-- Codeslinger -->
 			<name>Codeslinger</name>
-			<limit>True</limit>
+			<limit amendoperation="replace">True</limit>
 		</quality>
 		<quality>
 			<!-- Natural Immunity (Natural) -->
 			<name>Natural Immunity (Natural)</name>
-			<limit>True</limit>
+			<limit amendoperation="replace">True</limit>
 		</quality>
 		<quality>
 			<!-- Natural Immunity (Synthetic) -->
 			<name>Natural Immunity (Synthetic)</name>
-			<limit>True</limit>
+			<limit amendoperation="replace">True</limit>
 		</quality>
 		<quality>
 			<!-- Spirit Affinity -->
 			<name>Spirit Affinity</name>
-			<limit>True</limit>
+			<limit amendoperation="replace">True</limit>
 		</quality>
 		<quality>
 			<!-- Brand Loyalty (Manufacturer) -->
 			<name>Brand Loyalty (Manufacturer)</name>
-			<limit>True</limit>
+			<limit amendoperation="replace">True</limit>
+			<forbidden>
+				<oneof>
+					<quality>Brand Loyalty (Product)</quality>
+				</oneof>
+			</forbidden>
 		</quality>
 		<quality>
 			<!-- Brand Loyalty (Product) -->
 			<name>Brand Loyalty (Product)</name>
-			<limit>True</limit>
+			<limit amendoperation="replace">True</limit>
+			<forbidden>
+				<oneof>
+					<quality>Brand Loyalty (Manufacturer)</quality>
+				</oneof>
+			</forbidden>
 		</quality>
 		<quality>
 			<!-- Sensei -->
 			<name>Sensei</name>
-			<limit>True</limit>
+			<limit amendoperation="replace">True</limit>
 		</quality>
 		<quality>
 			<!-- Solid Rep -->
 			<name>Solid Rep</name>
-			<limit>True</limit>
+			<limit amendoperation="replace">True</limit>
+			<forbidden>
+				<oneof>
+					<quality>Legendary Rep</quality>
+				</oneof>
+			</forbidden>
 		</quality>
 		<quality>
 			<!-- Legendary Rep< -->
 			<name>Legendary Rep</name>
-			<limit>True</limit>
+			<limit amendoperation="replace">True</limit>
+			<forbidden>
+				<oneof>
+					<quality>Solid Rep</quality>
+				</oneof>
+			</forbidden>
 		</quality>
 		<quality>
 			<!-- Metahuman Traits -->
 			<name>Metahuman Traits</name>
-			<limit>True</limit>
+			<limit amendoperation="replace">True</limit>
 		</quality>
 		<quality>
 			<!-- Elemental Focus -->
 			<name>Elemental Focus</name>
-			<limit>True</limit>
+			<limit amendoperation="replace">True</limit>
 		</quality>
 		<quality>
 			<!-- Sprite Affinity -->
 			<name>Sprite Affinity</name>
-			<limit>True</limit>
+			<limit amendoperation="replace">True</limit>
 		</quality>
 		<!-- End Region -->
 	</qualities>
