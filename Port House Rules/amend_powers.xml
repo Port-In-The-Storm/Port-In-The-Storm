@@ -29,5 +29,9 @@
         </specificattribute>
       </bonus>
     </power>
+    <power>
+	  <name>Plague Cloud</name>
+      <hide />
+	</power>
   </powers>
 </chummer>
