@@ -758,8 +758,8 @@
 			  <val>50</val>
 			</skillcategorypointcostmultiplier>
 		  </bonus>
-		  <source>RF</source>
-		  <page>150</page>
+		  <source>SR5</source>
+		  <page>0</page>
 		</quality>
 		<quality> <!-- Infected: Banshee -->
 		  <id>dbe9f55d-0350-4bd6-8e90-1174070558b4</id>
