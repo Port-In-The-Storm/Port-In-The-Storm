@@ -758,8 +758,8 @@
 			  <val>50</val>
 			</skillcategorypointcostmultiplier>
 		  </bonus>
-		  <source>SR5</source>
-		  <page>0</page>
+		  <source>RF</source>
+		  <page>150</page>
 		</quality>
 		<quality> <!-- Infected: Banshee -->
 		  <id>dbe9f55d-0350-4bd6-8e90-1174070558b4</id>
@@ -6766,6 +6766,45 @@
 		  </required>
 		  <source>RF</source>
 		  <page>136</page>
+		</quality>
+		<quality> <!-- Banisher -->
+			<id>e2f5194c-6b28-4d97-b82d-c7db8dd04a83</id>
+			<name>Banisher</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<skill>
+						<name>Banishing</name>
+						<val>4</val>
+					</skill>
+				</oneof>
+			</required>
+			<source>SR5</source>
+			<page>0</page>
+		</quality>
+		<quality> <!-- Advanced Banisher -->
+			<id>844a8f28-0988-47be-a6fc-128cf1f37340</id>
+			<name>Advanced Banisher</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<skill>
+						<name>Banishing</name>
+						<val>6</val>
+					</skill>
+				</oneof>	
+				<oneof>
+					<quality>
+						<name>Banisher</name>
+					</quality>
+				</oneof>
+			</required>
+			<source>SR5</source>
+			<page>0</page>
 		</quality>
 	</qualities>
 </chummer>
