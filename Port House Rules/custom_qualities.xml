@@ -6791,17 +6791,15 @@
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 			<required>
-				<oneof>
+				<allof>
 					<skill>
 						<name>Banishing</name>
 						<val>6</val>
 					</skill>
-				</oneof>	
-				<oneof>
 					<quality>
 						<name>Banisher</name>
 					</quality>
-				</oneof>
+				</allof>
 			</required>
 			<source>SR5</source>
 			<page>0</page>
