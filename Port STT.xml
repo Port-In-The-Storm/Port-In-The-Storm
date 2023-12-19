@@ -47,7 +47,7 @@
 	<maximumarmormodifications>False</maximumarmormodifications>
 	<armordegredation>False</armordegredation>
 	<specialkarmacostbasedonshownvalue>False</specialkarmacostbasedonshownvalue>
-	<exceedpositivequalities>True</exceedpositivequalities>
+	<exceedpositivequalities>False</exceedpositivequalities>
 	<exceedpositivequalitiescostdoubled>False</exceedpositivequalitiescostdoubled>
 	<mysaddppcareer>False</mysaddppcareer>
 	<mysadeptsecondmagattribute>False</mysadeptsecondmagattribute>
