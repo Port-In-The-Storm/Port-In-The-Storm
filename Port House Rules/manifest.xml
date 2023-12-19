@@ -22,13 +22,13 @@
   <version>1.0</version>
   <authors>
     <author>
-      <name>Jag</name>
+      <name>Port Admiralty</name>
       <main>true</main>
     </author>
   </authors>
   <descriptions>
     <description>
-      <text>This custom data file contains the house rules of the Port in the Storm.</text>
+      <text>This custom data file contains the house rules of the Port in the Storm. Special thanks to the following contributors: EfimEvgen, Glob, Teksura</text>
       <lang>en-us</lang>
     </description>
     <description>
