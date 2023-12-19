@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <settings>
 	<id>00000000-0000-0000-0000-000000000000</id>
 	<name>Port Point Buy</name>
@@ -33,7 +34,7 @@
 	<encumbrancepenaltyagility>1</encumbrancepenaltyagility>
 	<encumbrancepenaltyreaction>1</encumbrancepenaltyreaction>
 	<encumbrancepenaltywoundmodifier>1</encumbrancepenaltywoundmodifier>
-	<dronearmormultiplierenabled>True</dronearmormultiplierenabled>
+	<dronearmormultiplierenabled>False</dronearmormultiplierenabled>
 	<dronearmorflatnumber>2</dronearmorflatnumber>
 	<nosinglearmorencumbrance>False</nosinglearmorencumbrance>
 	<ignorecomplexformlimit>True</ignorecomplexformlimit>
@@ -190,6 +191,7 @@
 		<book>AET</book>
 		<book>NF</book>
 		<book>KK</book>
+		<book>SW</book>
 	</books>
 	<customdatadirectorynames>
 		<customdatadirectoryname>
@@ -218,5 +220,7 @@
 		<grade>Deltaware</grade>
 		<grade>Betaware</grade>
 	</bannedwaregrades>
-	<redlinerexclusion />
+	<redlinerexclusion>
+		<limb>skull</limb>
+	</redlinerexclusion>
 </settings>

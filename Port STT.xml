@@ -19,6 +19,7 @@
 	<chargenkarmatonuyenexpression>{Karma} * 2000 + {PriorityNuyen}</chargenkarmatonuyenexpression>
 	<boundspiritexpression>{CHA}</boundspiritexpression>
 	<compiledspriteexpression>{LOG}</compiledspriteexpression>
+	<essencemodifierpostexpression>{Modifier}</essencemodifierpostexpression>
 	<liftlimitexpression>{STR} * 15</liftlimitexpression>
 	<carrylimitexpression>{STR} * 10</carrylimitexpression>
 	<encumbranceintervalexpression>15</encumbranceintervalexpression>
@@ -37,8 +38,10 @@
 	<nosinglearmorencumbrance>False</nosinglearmorencumbrance>
 	<ignorecomplexformlimit>True</ignorecomplexformlimit>
 	<noarmorencumbrance>False</noarmorencumbrance>
+	<uncappedarmoraccessorybonuses>True</uncappedarmoraccessorybonuses>
 	<esslossreducesmaximumonly>False</esslossreducesmaximumonly>
 	<allowskillregrouping>True</allowskillregrouping>
+	<specializationsbreakskillgroups>True</specializationsbreakskillgroups>
 	<metatypecostskarma>True</metatypecostskarma>
 	<metatypecostskarmamultiplier>1</metatypecostskarmamultiplier>
 	<limbcount>5</limbcount>
@@ -47,12 +50,12 @@
 	<maximumarmormodifications>False</maximumarmormodifications>
 	<armordegredation>False</armordegredation>
 	<specialkarmacostbasedonshownvalue>False</specialkarmacostbasedonshownvalue>
-	<exceedpositivequalities>True</exceedpositivequalities>
+	<exceedpositivequalities>False</exceedpositivequalities>
 	<exceedpositivequalitiescostdoubled>False</exceedpositivequalitiescostdoubled>
 	<mysaddppcareer>False</mysaddppcareer>
 	<mysadeptsecondmagattribute>False</mysadeptsecondmagattribute>
 	<exceednegativequalities>True</exceednegativequalities>
-	<exceednegativequalitieslimit>True</exceednegativequalitieslimit>
+	<exceednegativequalitiesnobonus>True</exceednegativequalitiesnobonus>
 	<multiplyrestrictedcost>False</multiplyrestrictedcost>
 	<multiplyforbiddencost>False</multiplyforbiddencost>
 	<restrictedcostmultiplier>1</restrictedcostmultiplier>
@@ -167,7 +170,6 @@
 		<book>CF</book>
 		<book>HT</book>
 		<book>BLB</book>
-		<book>SHB</book>
 		<book>R5</book>
 		<book>HS</book>
 		<book>TVG</book>
@@ -188,6 +190,7 @@
 		<book>AET</book>
 		<book>NF</book>
 		<book>KK</book>
+		<book>SW</book>
 	</books>
 	<customdatadirectorynames>
 		<customdatadirectoryname>
@@ -196,7 +199,7 @@
 			<enabled>False</enabled>
 		</customdatadirectoryname>
 		<customdatadirectoryname>
-			<directoryname>Port House Rules</directoryname>
+			<directoryname>f3caa6bf-9ba4-445b-8697-c0f7993e6230&gt;1.0</directoryname>
 			<order>1</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
@@ -213,6 +216,10 @@
 		<grade>Greyware</grade>
 		<grade>Omegaware</grade>
 		<grade>Gammaware</grade>
+		<grade>Deltaware</grade>
+		<grade>Betaware</grade>
 	</bannedwaregrades>
-	<redlinerexclusion />
+	<redlinerexclusion>
+		<limb>skull</limb>
+	</redlinerexclusion>
 </settings>
