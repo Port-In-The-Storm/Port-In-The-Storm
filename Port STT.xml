@@ -195,12 +195,7 @@
 	<customdatadirectorynames>
 		<customdatadirectoryname>
 			<directoryname>f3caa6bf-9ba4-445b-8697-c0f7993e6230&gt;1.0</directoryname>
-			<order>1</order>
-			<enabled>True</enabled>
-		</customdatadirectoryname>
-		<customdatadirectoryname>
-			<directoryname>39b1963e-dfb3-4082-8d7f-79f88dab786f&gt;1.0</directoryname>
-			<order>61</order>
+			<order>0</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 	</customdatadirectorynames>
