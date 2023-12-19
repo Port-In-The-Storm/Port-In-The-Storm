@@ -18,6 +18,20 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
+  <grades>
+    <grade>
+      <name>Gammaware</name>
+	  <hide />
+	</grade>
+    <grade>
+      <name>Omegaware</name>
+	  <hide />
+    </grade>
+    <grade>
+      <name>Greyware</name>
+	  <hide />
+    </grade>
+  </grades>
   <biowares>
     <bioware>
       <name>Synaptic Booster</name>

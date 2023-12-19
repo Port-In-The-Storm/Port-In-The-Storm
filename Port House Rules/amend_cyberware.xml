@@ -21,6 +21,32 @@
 	<categories amendoperation="addnode">
 		<category blackmarket="Cyberware">Cybergun</category>
 	</categories>
+  <grades>
+    <grade>
+      <name>Gammaware</name>
+	  <hide />
+	</grade>
+    <grade>
+      <name>Omegaware</name>
+	  <hide />
+    </grade>
+    <grade>
+      <name>Greyware</name>
+	  <hide />
+    </grade>
+    <grade>
+      <name>Gammaware (Adapsin)</name>
+	  <hide />
+    </grade>
+    <grade>
+      <name>Omegaware (Adapsin)</name>
+	  <hide />
+    </grade>
+	<grade>
+      <name>Greyware (Adapsin)</name>
+	  <hide />
+    </grade>
+  </grades>
   <cyberwares>
     <cyberware>
 		<name>Wired Reflexes</name>
