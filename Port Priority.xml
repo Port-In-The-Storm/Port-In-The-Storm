@@ -194,13 +194,13 @@
 	</books>
 	<customdatadirectorynames>
 		<customdatadirectoryname>
-			<directoryname>62aeb98e-e61c-4d0e-b4ff-03e0469e6e2b&gt;1.3</directoryname>
-			<order>0</order>
-			<enabled>False</enabled>
-		</customdatadirectoryname>
-		<customdatadirectoryname>
 			<directoryname>f3caa6bf-9ba4-445b-8697-c0f7993e6230&gt;1.0</directoryname>
 			<order>1</order>
+			<enabled>True</enabled>
+		</customdatadirectoryname>
+		<customdatadirectoryname>
+			<directoryname>39b1963e-dfb3-4082-8d7f-79f88dab786f&gt;1.0</directoryname>
+			<order>61</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 	</customdatadirectorynames>
