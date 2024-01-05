@@ -36,7 +36,7 @@
           <metavariants>
             <metavariant>
               <name>E-Ghost</name>
-              <value>8</value>
+              <value>9</value>
               <karma>0</karma>
             </metavariant>
             <metavariant>
@@ -44,11 +44,12 @@
               <value>5</value>
               <karma>0</karma>
             </metavariant>
-            <!--     <metavariant>
+            <metavariant>
               <name>Protosapient</name>
-              <value>4</value>
+              <value>7</value>
               <karma>0</karma>
-            </metavariant>-->
+			  <hide />
+            </metavariant>
           </metavariants>
         </metatype>
         <metatype>
@@ -59,7 +60,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>8</value>
-              <karma>8</karma>
+              <karma>0</karma>
             </metavariant>
           </metavariants>
         </metatype>
@@ -205,7 +206,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>8</value>
-              <karma>13</karma>
+              <karma>5</karma>
             </metavariant>
             <metavariant>
               <name>Elf</name>
@@ -322,7 +323,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>8</value>
-              <karma>13</karma>
+              <karma>5</karma>
             </metavariant>
             <metavariant>
               <name>Elf</name>
@@ -439,7 +440,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>7</value>
-              <karma>18</karma>
+              <karma>10</karma>
             </metavariant>
             <metavariant>
               <name>Elf</name>
@@ -556,7 +557,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>7</value>
-              <karma>18</karma>
+              <karma>10</karma>
             </metavariant>
             <metavariant>
               <name>Elf</name>
@@ -673,7 +674,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>6</value>
-              <karma>23</karma>
+              <karma>15</karma>
             </metavariant>
             <metavariant>
               <name>Elf</name>
@@ -790,7 +791,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>6</value>
-              <karma>23</karma>
+              <karma>15</karma>
             </metavariant>
             <metavariant>
               <name>Elf</name>
@@ -907,7 +908,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>4</value>
-              <karma>28</karma>
+              <karma>20</karma>
             </metavariant>
             <metavariant>
               <name>Elf</name>
@@ -1024,7 +1025,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>6</value>
-              <karma>28</karma>
+              <karma>20</karma>
             </metavariant>
             <metavariant>
               <name>Elf</name>
@@ -1141,7 +1142,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>4</value>
-              <karma>28</karma>
+              <karma>20</karma>
             </metavariant>
             <metavariant>
               <name>Elf</name>
@@ -1258,7 +1259,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>4</value>
-              <karma>33</karma>
+              <karma>25</karma>
             </metavariant>
             <metavariant>
               <name>Elf</name>
@@ -1375,7 +1376,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>4</value>
-              <karma>33</karma>
+              <karma>25</karma>
             </metavariant>
             <metavariant>
               <name>Elf</name>
@@ -1494,7 +1495,7 @@
           <metavariants>
             <metavariant>
               <name>E-Ghost</name>
-              <value>6</value>
+              <value>7</value>
               <karma>0</karma>
             </metavariant>
             <metavariant>
@@ -1502,11 +1503,12 @@
               <value>3</value>
               <karma>0</karma>
             </metavariant>
-            <!-- <metavariant>
+			<metavariant>
               <name>Protosapient</name>
-              <value>2</value>
+              <value>5</value>
               <karma>0</karma>
-            </metavariant>-->
+			  <hide />
+            </metavariant>
           </metavariants>
         </metatype>
         <metatype>
@@ -1517,7 +1519,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>6</value>
-              <karma>8</karma>
+              <karma>0</karma>
             </metavariant>
           </metavariants>
         </metatype>
@@ -1663,7 +1665,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>6</value>
-              <karma>13</karma>
+              <karma>5</karma>
             </metavariant>
             <metavariant>
               <name>Elf</name>
@@ -2952,7 +2954,7 @@
           <metavariants>
             <metavariant>
               <name>E-Ghost</name>
-              <value>4</value>
+              <value>5</value>
               <karma>0</karma>
             </metavariant>
             <metavariant>
@@ -2960,11 +2962,12 @@
               <value>1</value>
               <karma>0</karma>
             </metavariant>
-           <!-- <metavariant>
+            <metavariant>
               <name>Protosapient</name>
-              <value>0</value>
+              <value>3</value>
               <karma>0</karma>
-            </metavariant> -->
+			  <hide />
+            </metavariant>
           </metavariants>
         </metatype>
         <metatype>
@@ -2975,7 +2978,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>4</value>
-              <karma>8</karma>
+              <karma>0</karma>
             </metavariant>
           </metavariants>
         </metatype>
@@ -3076,9 +3079,10 @@
           <karma>25</karma>
         </metatype>
         <metatype>
-          <name>Pixie</name>
-          <value>0</value>
-          <karma>15</karma>
+			<name>Pixie</name>
+			<value>0</value>
+			<karma>15</karma>
+			<hide />
         </metatype>
         <metatype>
           <name>Sasquatch</name>
@@ -4388,19 +4392,20 @@
         <metavariants>
           <metavariant>
             <name>E-Ghost</name>
-            <value>2</value>
+            <value>3</value>
             <karma>0</karma>
           </metavariant>
-          <!--<metavariant>
+          <metavariant>
               <name>Xenosapient</name>
-            <value>5</value>
+            <value>0</value>
             <karma>0</karma>
           </metavariant>
               <metavariant>
               <name>Protosapient</name>
-              <value>4</value>
+              <value>1</value>
               <karma>0</karma>
-            </metavariant>-->
+			  <hide />
+            </metavariant>
         </metavariants>
         </metatype>
         <metatype>
@@ -4411,7 +4416,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>2</value>
-              <karma>8</karma>
+              <karma>0</karma>
             </metavariant>
           </metavariants>
         </metatype>
@@ -4458,7 +4463,7 @@
             <metavariant>
               <name>Nartaki</name>
               <value>1</value>
-              <karma>8</karma>
+              <karma>0</karma>
             </metavariant>
           </metavariants>
         </metatype>
