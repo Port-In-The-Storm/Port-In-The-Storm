@@ -184,6 +184,12 @@
 		If a character with this quality is wearing a suitable piece of clothing/armor (such as a jacket) with the Insulation modification, then the negative effects are reduced. For the purposes of this negative quality, rating 4 Insulation or higher allows you to treat the temperature as up to ten degrees warmer, while rating 6 Insulation allows you to treat the temperature as up to twenty degrees warmer.
 	  </notes>
 		</quality>
+		<quality>
+			<name>Exceptional Entity</name>
+			<karma>25</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
 		<quality>
