@@ -190,6 +190,10 @@
 			<category>Positive</category>
 			<doublecareer>False</doublecareer>
 		</quality>
+		<quality>
+			<name>Lazy Fingers</name>
+			<karma>-6</karma>
+		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
 		<quality>

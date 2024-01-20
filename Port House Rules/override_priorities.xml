@@ -4470,5 +4470,42 @@
       </metatypes>
     </priority>
     <!-- End Region -->
+    <!-- Region Attributes -->
+    <priority>
+      <id>1c4a7955-1ae1-4a5b-9ed4-5ab8525d13b0</id>
+      <name>A - 24 (16) Attributes</name>
+      <value>A</value>
+      <category>Attributes</category>
+      <attributes>24</attributes>
+    </priority>
+    <priority>
+      <id>521c1f60-f382-479e-af3b-a3eda5201f22</id>
+      <name>B - 20 (13) Attributes</name>
+      <value>B</value>
+      <category>Attributes</category>
+      <attributes>20</attributes>
+    </priority>
+    <priority>
+      <id>0a224d86-d355-4cd6-8e4e-b94e31f97c4b</id>
+      <name>C - 16 (10) Attributes</name>
+      <value>C</value>
+      <category>Attributes</category>
+      <attributes>16</attributes>
+    </priority>
+    <priority>
+      <id>984600d8-5b2f-437c-86eb-693a5bbff030</id>
+      <name>D - 14 (8) Attributes</name>
+      <value>D</value>
+      <category>Attributes</category>
+      <attributes>14</attributes>
+    </priority>
+    <priority>
+      <id>f6a36071-41ab-4f8e-884d-3cee92d8f181</id>
+      <name>E - 12 (6) Attributes</name>
+      <value>E</value>
+      <category>Attributes</category>
+      <attributes>12</attributes>
+    </priority>
+    <!-- End Region -->
   </priorities>
 </chummer>
