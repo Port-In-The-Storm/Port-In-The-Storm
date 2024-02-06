@@ -6804,5 +6804,43 @@
 			<source>SR5</source>
 			<page>0</page>
 		</quality>
+		<quality>
+		  <id>5437b638-b808-44d4-a8bc-29a6b6355887</id>
+		  <name>Dedicated Alchemist</name>
+		  <karma>10</karma>
+		  <category>Positive</category>
+		  <canbuywithspellpoints>True</canbuywithspellpoints>
+		  <costdiscount>
+			<required>
+			  <oneof>
+				<quality>Apprentice</quality>
+				<quality>Aspected Magician</quality>
+				<quality>Aware</quality>
+				<quality>Enchanter</quality>
+				<quality>Explorer</quality>
+			  </oneof>
+			</required>
+			<value>-5</value>
+		  </costdiscount>
+		  <doublecareer>False</doublecareer>
+		  <bonus>
+			<freespells skill="Alchemy" />
+			<newspellkarmacost type="Spells">-1</newspellkarmacost>
+			<skilldisable>Spellcasting</skilldisable>
+		  </bonus>
+		  <required>
+			<allof>
+			  <magenabled />
+			</allof>
+			<oneof>
+			  <skill>
+				<name>Alchemy</name>
+				<val>1</val>
+			  </skill>
+			</oneof>
+		  </required>
+		  <source>SR5</source>
+		  <page>0</page>
+		</quality>
 	</qualities>
 </chummer>
