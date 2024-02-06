@@ -962,8 +962,8 @@
     </weapon>
     <weapon>
       <name>Ingram Supermach 200</name>
-      <damage>10P</damage>
-      <ap>-1</ap>
+      <damage>9P</damage>
+      <ap>-9</ap>
     </weapon>
     <weapon>
       <name>Krime Spree</name>
