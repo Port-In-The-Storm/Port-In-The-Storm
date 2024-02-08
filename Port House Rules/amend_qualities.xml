@@ -132,22 +132,34 @@
 		<quality>
 			<!-- SINner (Corporate) -->
 			<id>e00623e1-54b0-4a91-b234-3c7e141deef4</id>
-			<karma>-10</karma>
+			<karma>-5</karma>
+			<bonus>
+		  	  <lifestylecost>10</lifestylecost>
+		    </bonus>
 		</quality>
 		<quality>
 			<!-- SINner (National) -->
 			<id>9ac85feb-ae1e-4996-8514-3570d411e1d5</id>
-			<karma>-10</karma>
+			<karma>-5</karma>
+			<bonus>
+		  	  <lifestylecost>15</lifestylecost>
+		    </bonus>
 		</quality>
 		<quality>
 			<!-- SINner (Corporate Limited) -->
 			<id>318d2edd-833b-48c5-a3e1-343bf03848a5</id>
-			<karma>-20</karma>
+			<karma>-10</karma>
+			<bonus>
+		  	  <lifestylecost>20</lifestylecost>
+		    </bonus>
 		</quality>
 		<quality>
 			<!-- SINner (Criminal) -->
 			<id>d9479e5c-d44a-45b9-8fb4-d1e08a9487b2</id>
-			<karma>-15</karma>
+			<karma>-10</karma>
+			<bonus>
+		  	  <lifestylecost>15</lifestylecost>
+		    </bonus>
 		</quality>
 		<quality>
 			<!-- Ex-Con -->
