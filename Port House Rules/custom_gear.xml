@@ -17,11 +17,10 @@
     You can obtain the full source code for Chummer5a at
     https://github.com/chummer5a/chummer5a
 -->
-<categories>
-    <category>Future Tech</category>
-</categories>
-
 <chummer>
+	<categories>
+		<category>Future Tech</category>
+	</categories>
 	<gears>
 		<gear>
 			<id>06272a4e-0583-4fcf-b0f3-61f5ce9922e7</id>
@@ -160,7 +159,7 @@
 			<cost>35</cost>
 			<costfor>1</costfor>
 			<weaponbonus>
-			<ap>-2</ap>
+				<ap>-2</ap>
 			</weaponbonus>
 			<ammoforweapontype>crossbow</ammoforweapontype>
 		</gear>
