@@ -18,6 +18,9 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
+	<categories>
+		<category>Future Tech</category>
+	</categories>
 	<gears>
 		<gear>
 			<id>06272a4e-0583-4fcf-b0f3-61f5ce9922e7</id>
@@ -156,9 +159,29 @@
 			<cost>35</cost>
 			<costfor>1</costfor>
 			<weaponbonus>
-					<ap>-2</ap>
+				<ap>-2</ap>
 			</weaponbonus>
 			<ammoforweapontype>crossbow</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>294de1d3-271b-40a2-bc65-6a7e90905807</id>
+			<name>Vulcan Systems "Hotdrop" Rapid-Egress Jetpack System</name>
+			<category>Future Tech</category>
+			<rating>0</rating>
+			<source>SL</source>
+			<page>55</page>
+			<avail>18R</avail>
+			<cost>22000</cost>
+		</gear>
+		<gear>
+			<id>248e1fbb-eec2-46bd-b48c-b752af215be3</id>
+			<name>Vulcan Systems "Hotdrop" Rapid-Egress Jetpack System Refuel</name>
+			<category>Future Tech</category>
+			<rating>0</rating>
+			<source>SL</source>
+			<page>55</page>
+			<avail>6R</avail>
+			<cost>250</cost>
 		</gear>
 	</gears>
 </chummer>
