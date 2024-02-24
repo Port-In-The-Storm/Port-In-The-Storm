@@ -704,6 +704,26 @@
 			<id>652948f9-e629-4dea-bd13-776dd41ca6a1</id>
 			<hide />
 		</quality>
+		<quality>
+			<!-- Wildcard Chimera -->
+			<name>Wildcard Chimera</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Metaviral Attunement -->
+			<name>Metaviral Attunement</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- It Works If You Work It -->
+			<name>It Works If You Work It</name>
+			<hide />
+		</quality>
+		<quality>
+			<!-- Soul Swallower -->
+			<name>Soul Swallower</name>
+			<hide />
+		</quality>
 		<!-- End Region -->
 		<!-- Region Infected Optional Powers -->
 		<quality>
