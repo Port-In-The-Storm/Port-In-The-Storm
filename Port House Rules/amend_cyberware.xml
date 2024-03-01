@@ -18,9 +18,6 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
-   <!-- <categories amendoperation="addnode">
-		<category blackmarket="Cyberware">Cybergun</category> 
-	</categories> -->
   <grades>
     <grade>
       <name>Gammaware</name>
