@@ -35,7 +35,7 @@
 		<gear>
 			<name>Attack Dongle</name>
 			<cost>(Rating*6000)</cost>
-			<required>
+			<required amendoperation="replace">
 				<geardetails>
 					<OR>
 						<category>Commlinks</category>
@@ -49,7 +49,7 @@
 		<gear>
 			<name>Stealth Dongle</name>
 			<cost>(Rating*6000)</cost>
-			<required>
+			<required amendoperation="replace">
 				<geardetails>
 					<OR>
 						<category>Commlinks</category>
