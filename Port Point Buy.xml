@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <settings>
 	<id>00000000-0000-0000-0000-000000000000</id>
 	<name>Port Point Buy</name>
@@ -12,7 +12,7 @@
 	<usepointsonbrokengroups>False</usepointsonbrokengroups>
 	<dontdoublequalities>False</dontdoublequalities>
 	<dontdoublequalityrefunds>False</dontdoublequalityrefunds>
-	<ignoreart>False</ignoreart>
+	<ignoreart>True</ignoreart>
 	<cyberlegmovement>True</cyberlegmovement>
 	<contactpointsexpression>{CHAUnaug} * 3</contactpointsexpression>
 	<knowledgepointsexpression>({INTUnaug} + {LOGUnaug}) * 2</knowledgepointsexpression>
@@ -206,6 +206,8 @@
 	<prioritytable>Standard</prioritytable>
 	<sumtoten>10</sumtoten>
 	<availability>12</availability>
+	<maxmartialarts>1</maxmartialarts>
+	<maxmartialtechniques>5</maxmartialtechniques>
 	<nuyenmaxbp>235</nuyenmaxbp>
 	<bannedwaregrades>
 		<grade>Greyware</grade>
