@@ -206,6 +206,18 @@
 			<name>Lazy Fingers</name>
 			<karma>-6</karma>
 		</quality>
+		<quality>
+		  <name>Hi-Rez</name>
+		  <karma>4</karma>
+		  <required amendoperation="replace">
+			<oneof>
+			  <quality>Technomancer</quality>
+			  <quality>Reverberant</quality>
+			</oneof>
+		  </required>
+		  <source>BTB</source>
+		  <page>160</page>
+		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
 		<quality>
@@ -757,11 +769,6 @@
 			<hide />
 		</quality>
 		<quality>
-			<!-- Infected Optional Power: Mist Form -->
-			<name>Infected Optional Power: Mist Form</name>
-			<hide />
-		</quality>
-		<quality>
 			<!-- Infected Optional Power: Paralyzing Howl -->
 			<name>Infected Optional Power: Paralyzing Howl</name>
 			<hide />
@@ -780,6 +787,15 @@
 			<!-- Infected Optional Power: Regeneration -->
 			<name>Infected Optional Power: Regeneration</name>
 			<hide />
+		</quality>
+		<quality>
+		  <name>Infected Optional Power: Mist Form</name>
+		  <required>
+			<oneof>
+			  <quality>Infected: Banshee</quality>
+			  <quality>Infected: Vampire</quality>
+			</oneof>
+		  </required>
 		</quality>
 		<quality>
 			<!-- Infected Optional Power: Armor -->
