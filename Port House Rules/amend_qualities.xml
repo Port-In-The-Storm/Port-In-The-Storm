@@ -208,15 +208,22 @@
 		</quality>
 		<quality>
 		  <name>Hi-Rez</name>
-		  <karma>4</karma>
 		  <required amendoperation="replace">
 			<oneof>
 			  <quality>Technomancer</quality>
 			  <quality>Reverberant</quality>
 			</oneof>
 		  </required>
-		  <source>BTB</source>
-		  <page>160</page>
+		</quality>
+		<quality>
+		  <name>Made Man</name>
+		  <bonus amendoperation="replace">
+			<addcontact>
+			  <forcedloyalty>2</forcedloyalty>
+			  <connection>3</connection>
+			  <free />
+			</addcontact>
+		  </bonus>
 		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
