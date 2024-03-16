@@ -225,6 +225,18 @@
 			</addcontact>
 		  </bonus>
 		</quality>
+		<quality>
+		  <name>Changeling (Class I SURGE)</name>
+		  <doublecareer>False</doublecareer>
+		</quality>
+		<quality>
+		  <name>Changeling (Class II SURGE)</name>
+		  <doublecareer>False</doublecareer>
+		</quality>
+		<quality>
+		  <name>Changeling (Class III SURGE)</name>
+		  <doublecareer>False</doublecareer>
+		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
 		<quality>
