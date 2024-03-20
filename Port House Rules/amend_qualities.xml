@@ -179,7 +179,7 @@
 			<name>Lazy Fingers</name>
 			<karma>-6</karma>
 		</quality>
-		<quality> <!--  -->
+		<quality> <!-- Hi-Rez -->
 		  <name>Hi-Rez</name>
 		  <required amendoperation="replace">
 			<oneof>
@@ -188,7 +188,7 @@
 			</oneof>
 		  </required>
 		</quality>
-		<quality> <!-- Mae Man -->
+		<quality> <!-- Made Man -->
 		  <name>Made Man</name>
 		  <bonus amendoperation="replace">
 			<addcontact>
