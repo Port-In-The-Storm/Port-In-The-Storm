@@ -225,18 +225,6 @@
 			</addcontact>
 		  </bonus>
 		</quality>
-		<quality>
-		  <name>Changeling (Class I SURGE)</name>
-		  <doublecareer>False</doublecareer>
-		</quality>
-		<quality>
-		  <name>Changeling (Class II SURGE)</name>
-		  <doublecareer>False</doublecareer>
-		</quality>
-		<quality>
-		  <name>Changeling (Class III SURGE)</name>
-		  <doublecareer>False</doublecareer>
-		</quality>
 		<!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
 		<quality>
@@ -289,9 +277,12 @@
 			<name>Dracoform (Feathered Drake)</name>
 			<hide />
 		</quality>
-		<quality>
-			<!-- Dracoform (Sea Drake) -->
+		<quality> <!-- Dracoform (Sea Drake) -->
 			<name>Dracoform (Sea Drake)</name>
+			<hide />
+		</quality>
+		<quality>
+		  <name>Blood Necromancer</name>
 			<hide />
 		</quality>
 		<!-- End Region -->
