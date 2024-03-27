@@ -211,7 +211,44 @@
 		  <name>Changeling (Class III SURGE)</name>
 		  <doublecareer>False</doublecareer>
 		</quality>
-		<!-- End Region -->
+		<quality> <!-- Aged -->
+		  <name>Aged</name>
+		  <forbidden>
+			<oneof>
+				<metatype>Elf</metatype>
+				<metatype>Dwarf</metatype>
+			</oneof>
+		  </forbidden>
+		</quality>
+		<quality>
+		  <name>Corporate Pariah I</name>
+		  <required>
+			<oneof>
+			  <quality>SINner (Corporate Limited)</quality>
+			  <quality>SINner (Corporate)</quality>
+			</oneof>
+		  </required>
+		</quality>
+		<quality>
+		  <name>Cyber-snob</name>
+		  <karma amendoperation="replace">-6</karma>
+		  <bonus amendoperation="replace">
+			<disablebiowaregrade>Standard</disablebiowaregrade>
+			<disablebiowaregrade>Standard (Burnout's Way)</disablebiowaregrade>
+			<disablebiowaregrade>Used</disablebiowaregrade>
+			<disablecyberwaregrade>Standard</disablecyberwaregrade>
+			<disablecyberwaregrade>Standard (Burnout's Way)</disablecyberwaregrade>
+			<disablecyberwaregrade>Used</disablecyberwaregrade>
+			<disablecyberwaregrade>Standard (Adapsin)</disablecyberwaregrade>
+			<disablecyberwaregrade>Standard (Burnout's Way) (Adapsin)</disablecyberwaregrade>
+			<disablecyberwaregrade>Used (Adapsin)</disablecyberwaregrade>
+		  </bonus>
+		  <required amendoperation="replace">
+			<oneof>
+			  <ess grade="Alphaware,Betaware,Deltaware,Gammaware">1</ess>
+			</oneof>
+		  </required>
+		</quality><!-- End Region -->
 		<!-- Region Banned Positive Qualities -->
 		<quality> <!-- Better to be Feared Than Loved -->
 			<name>Better to be Feared Than Loved</name>
