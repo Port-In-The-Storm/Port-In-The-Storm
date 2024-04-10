@@ -396,60 +396,6 @@
       </gears>
       <seats>6</seats>
     </vehicle>
-	<vehicle>
-      <id>7c921200-76a8-465f-8207-01a7c1785c67</id>
-      <name>Ruhrmetall Wolfspinne 8V2</name>
-      <page>71</page>
-      <source>SAG</source>
-      <accel>1</accel>
-      <armor>14</armor>
-      <avail>16F</avail>
-      <body>8</body>
-      <category>Drones: Large</category>
-      <cost>110000</cost>
-      <handling>5</handling>
-      <pilot>4</pilot>
-      <sensor>4</sensor>
-      <speed>1</speed>
-      <gears>
-        <gear>
-          <name>Sensor Array</name>
-          <rating>4</rating>
-          <maxrating>4</maxrating>
-        </gear>
-        <gear rating="5" select="GE Vindicator Mini-Gun">[Weapon] Targeting Autosoft</gear>
-        <gear>Smartsoft</gear>
-      </gears>
-      <mods>
-        <name>Gecko Grips (Drone)</name>
-      </mods>
-      <modslots>0</modslots>
-      <seats>0</seats>
-      <weaponmounts>
-        <weaponmount>
-          <control>Remote</control>
-          <flexibility>Fixed</flexibility>
-          <size>Large (Drone)</size>
-          <visibility>External</visibility>
-          <allowedweapons>GE Vindicator Mini-Gun</allowedweapons>
-        </weaponmount>
-        <weaponmount>
-          <control>Remote</control>
-          <flexibility>Fixed</flexibility>
-          <size>Large (Drone)</size>
-          <visibility>External</visibility>
-          <allowedweapons>GE Vindicator Mini-Gun</allowedweapons>
-        </weaponmount>
-      </weaponmounts>
-      <weapons>
-        <weapon>
-          <name>GE Vindicator Mini-Gun</name>
-        </weapon>
-        <weapon>
-          <name>GE Vindicator Mini-Gun</name>
-        </weapon>
-      </weapons>
-    </vehicle>
   </vehicles>
   <mods>
     <mod>
