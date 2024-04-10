@@ -22,8 +22,39 @@
   <metatypes>
     <!-- Region Metasapient -->
     <metatype>
-      <name>Pixie</name>
-	  <hide />
+	  <name>Pixie</name>
+	  <bodmin amendoperation="replace">1</bodmin>
+	  <bodmax amendoperation="replace">3</bodmax>
+	  <bodaug amendoperation="replace">7</bodaug>
+	  <agimin amendoperation="replace">3</agimin>
+	  <agimax amendoperation="replace">8</agimax>
+	  <agiaug amendoperation="replace">12</agiaug>
+	  <reamin amendoperation="replace">3</reamin>
+	  <reamax amendoperation="replace">8</reamax>
+	  <reaaug amendoperation="replace">12</reaaug>
+	  <strmin amendoperation="replace">1</strmin>
+	  <strmax amendoperation="replace">2</strmax>
+	  <straug amendoperation="replace">6</straug>
+	  <chamin amendoperation="replace">1</chamin>
+	  <chamax amendoperation="replace">5</chamax>
+	  <chaaug amendoperation="replace">9</chaaug>
+	  <intmin amendoperation="replace">2</intmin>
+	  <intmax amendoperation="replace">7</intmax>
+	  <intaug amendoperation="replace">11</intaug>
+	  <logmin amendoperation="replace">1</logmin>
+	  <logmax amendoperation="replace">4</logmax>
+	  <logaug amendoperation="replace">8</logaug>
+	  <wilmin amendoperation="replace">1</wilmin>
+	  <wilmax amendoperation="replace">6</wilmax>
+	  <wilaug amendoperation="replace">10</wilaug>
+	  <edgmin amendoperation="replace">1</edgmin>
+	  <edgmax amendoperation="replace">5</edgmax>
+	  <edgaug amendoperation="replace">5</edgaug>
+	  <qualities amendoperation="Append">
+	    <negative>
+	      <quality> 'Ware Intolerance </quality>
+	    </negative>
+      </qualities>
     </metatype>
     <metatype>
       <name>A.I.</name>
