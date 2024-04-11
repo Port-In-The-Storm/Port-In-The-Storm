@@ -136,29 +136,27 @@
       <id>5578f51e-fb72-4247-9126-a4b626a12308</id>
       <ess>0</ess>
     </cyberware>
-	<cyberware> <!-- Cyberears -->
-      <name>Cyberears</name>
-      <cost amendoperation="Replace">FixedValues(3000,4500,7500,11000,15500,21000)</cost>
-      <rating amendoperation="Replace">6</rating>
+    <cyberware><!-- Cybereyes Basic System -->
+      <id>8e414ade-2764-4dc7-bdc4-83bb4a086034</id>
+      <rating>6</rating>
     </cyberware>
-    <cyberware> <!-- Audio Enhancement -->
-      <name>Audio Enhancement</name>
-      <ess amendoperation="Replace">FixedValues(0.1,0.1,0.1,0.2,0.2,0.2)</ess>
-      <capacity amendoperation="Replace">FixedValues([1],[2],[3],[8],[10],[12])</capacity>
-      <cost amendoperation="Replace">FixedValues(4000,8000,12000,20000,25000,30000)</cost>
-      <rating amendoperation="Replace">6</rating>
+    <cyberware><!-- Vision Enhancement -->
+      <id>35c9c51e-5364-41b4-b3c9-4d1f080bd48c</id>
+      <ess>0.1 * (1 + number(Rating > 3))</ess>
+      <capacity>[Rating * (1 + number(Rating > 3))]</capacity>
+      <cost>Rating * (4000 + 1000 * number(Rating > 3))</cost>
+      <rating>6</rating>
     </cyberware>
-    <cyberware> <!-- Cybereyes Basic System -->
-      <name>Cybereyes Basic System</name>
-      <cost amendoperation="Replace">FixedValues(4000,6000,10000,14000,18000,22000)</cost>
-      <rating amendoperation="Replace">6</rating>
+    <cyberware><!-- Cyberears -->
+      <id>2767fdaf-4f49-4403-a799-e91b9e6c8fa2</id>
+      <rating>6</rating>
     </cyberware>
-    <cyberware> <!-- Vision Enhancement -->
-      <name>Vision Enhancement</name>
-      <ess amendoperation="Replace">FixedValues(0.1,0.1,0.1,0.2,0.2,0.2)</ess>
-      <capacity amendoperation="Replace">FixedValues([1],[2],[3],[8],[10],[12])</capacity>
-      <cost amendoperation="Replace">FixedValues(4000,8000,12000,20000,25000,30000)</cost>
-      <rating amendoperation="Replace">6</rating>
+    <cyberware><!-- Audio Enhancement -->
+      <id>9cdee6a3-a04e-40a1-95ce-e509b26b192c</id>
+      <ess>0.1 * (1 + number(Rating > 3))</ess>
+      <capacity>[Rating * (1 + number(Rating > 3))]</capacity>
+      <cost>Rating * (4000 + 1000 * number(Rating > 3))</cost>
+      <rating>6</rating>
     </cyberware>
   </cyberwares>
 </chummer>
