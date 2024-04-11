@@ -1,22 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--This file is part of Chummer5a.
-
-    Chummer5a is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    Chummer5a is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
-
-    You can obtain the full source code for Chummer5a at
-    https://github.com/chummer5a/chummer5a
--->
 <chummer>
 	<qualities>
 		<!-- Region Kill Code Technomancer Qualties -->
@@ -186,8 +168,8 @@
 		<quality> <!-- Cold-Blooded -->
 			<name>Cold-Blooded</name>
 			<notes>
-		If a character with this quality is wearing a suitable piece of clothing/armor (such as a jacket) with the Insulation modification, then the negative effects are reduced. For the purposes of this negative quality, rating 4 Insulation or higher allows you to treat the temperature as up to ten degrees warmer, while rating 6 Insulation allows you to treat the temperature as up to twenty degrees warmer.
-	  </notes>
+				If a character with this quality is wearing a suitable piece of clothing/armor (such as a jacket) with the Insulation modification, then the negative effects are reduced. For the purposes of this negative quality, rating 4 Insulation or higher allows you to treat the temperature as up to ten degrees warmer, while rating 6 Insulation allows you to treat the temperature as up to twenty degrees warmer.
+			</notes>
 		</quality>
 		<quality> <!--Exceptional Entity-->
 			<name>Exceptional Entity</name>
@@ -218,18 +200,6 @@
 			</addcontact>
 		  </bonus>
 		</quality>
-		<quality> <!-- SURGE I -->
-		  <name>Changeling (Class I SURGE)</name>
-		  <doublecareer>False</doublecareer>
-		</quality>
-		<quality> <!-- SURGE II -->
-		  <name>Changeling (Class II SURGE)</name>
-		  <doublecareer>False</doublecareer>
-		</quality>
-		<quality> <!-- SURGE III -->
-		  <name>Changeling (Class III SURGE)</name>
-		  <doublecareer>False</doublecareer>
-		</quality>
 		<quality> <!-- Aged -->
 		  <name>Aged</name>
 		  <forbidden>
@@ -239,7 +209,7 @@
 			</oneof>
 		  </forbidden>
 		</quality>
-		<quality>
+		<quality> <!-- Corporate Pariah I -->
 		  <name>Corporate Pariah I</name>
 		  <required>
 			<oneof>
@@ -248,7 +218,7 @@
 			</oneof>
 		  </required>
 		</quality>
-		<quality>
+		<quality> <!-- Cyber-snob -->
 		  <name>Cyber-snob</name>
 		  <karma amendoperation="replace">-6</karma>
 		  <bonus amendoperation="replace">
@@ -443,11 +413,11 @@
 			<hide />
 		</quality>
 		<quality> <!-- Amnesia (Surface Deletion) -->
-			<name>Amnesia (Surface Deletion)</name>
+			<name>Amnesia (Neural Deletion)</name>
 			<hide />
 		</quality>
-		<quality> <!-- Bi-polar -->
-			<name>Bi-polar</name>
+		<quality> <!-- Bi-Polar -->
+			<name>Bi-Polar</name>
 			<hide />
 		</quality>
 		<quality> <!-- Borrowed Time -->
